@@ -203,5 +203,9 @@ verifyPasswordInput.addEventListener("input", () => {
 
 //Submit button
 submitButton.addEventListener("click", () => {
-  window.open("https://www.w3schools.com/");
+  if (validClasses.length == 8 || invalidClasses.length == 0) {
+    window.open("https://www.w3schools.com/");
+  } else {
+    alert("Error");
+  }
 });
