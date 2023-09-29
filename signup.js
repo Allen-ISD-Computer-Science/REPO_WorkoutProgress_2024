@@ -9,14 +9,14 @@ let lastError = document.getElementById("last-error");
 let emptyLastNameError = document.getElementById("empty-last-name");
 
 // Fitness goal
-let fitnessGoalInput = document.getElementById("fitness-goal-input");
-let fitnessGoalError = document.getElementById("fitness-goal-error");
-let emptyFitnessGoalError = document.getElementById("empty-fitness-goal");
+let fitGoalInput = document.getElementById("fit-goal-input");
+let fitGoalError = document.getElementById("fit-goal-error");
+let emptyFitGoalError = document.getElementById("empty-fit-goal");
 
 // Fitness level
-let fitnessLevelInput = document.getElementById("fitness-level-input");
-let fitnessLevelError = document.getElementById("fitness-level-error");
-let emptyFitnessLevelError = document.getElementById("empty-fitness-level");
+let fitLevelInput = document.getElementById("fit-level-input");
+let fitLevelError = document.getElementById("fit-level-error");
+let emptyFitLevelError = document.getElementById("empty-fit-level");
 
 // Diet
 let dietInput = document.getElementById("diet-input");
@@ -66,6 +66,24 @@ const firstVerify = (input) => {
 
 // Last name verification
 const lastVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
+// Fit level verification
+const fitLevelVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
+// Fit goal verification
+const fitGoalVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
+// Diet verification
+const dietVerify = (input) => {
   const regex = /^[a-zA-Z]{2,}$/;
   return regex.test(input);
 };
@@ -133,38 +151,34 @@ emailInput.addEventListener("input", () => {
 });
 
 // Fitness goal
-fitnessGoalInput.addEventListener("input", () => {
-  if (fitnessGoalInput.value) {
-    fitnessGoalError.classList.add("hide");
-    validInput(fitnessGoalInput);
+fitGoalInput.addEventListener("input", () => {
+  if (fitGoalVerify(fitGoalInput.value)) {
+    fitGoalError.classList.add("hide");
+    validInput(fitGoalInput);
   } else {
-    errorUpdate(fitnessGoalInput, fitnessGoalError);
-    emptyUpdate(fitnessGoalInput, emptyFitnessGoalError, fitnessGoalError);
+    emptyUpdate(fitGoalInput, emptyFitGoalError);
   }
 });
 
 // Fitness level
-fitnessLevelInput.addEventListener("input", () => {
-  if (fitnessLevelInput.value) {
-    fitnessLevelError.classList.add("hide");
-    validInput(fitnessLevelInput);
+fitLevelInput.addEventListener("input", () => {
+  if (fitLevelVerify(fitLevelInput.value)) {
+    fitLevelError.classList.add("hide");
+    validInput(fitLevelInput);
   } else {
-    errorUpdate(fitnessLevelInput, fitnessLevelError);
-    emptyUpdate(fitnessLevelInput, emptyFitnessLevelError, fitnessLevelError);
+    emptyUpdate(fitLevelInput, emptyFitLevelError);
   }
 });
 
 // Diet
 dietInput.addEventListener("input", () => {
-  if (dietInput.value) {
+  if (dietVerify(dietInput.value)) {
     dietError.classList.add("hide");
     validInput(dietInput);
   } else {
-    errorUpdate(dietInput, dietError);
-    emptyUpdate(dietInput, emptyDietError, dietError);
+    emptyUpdate(dietInput, emptyDietError);
   }
 });
-
 //Password
 passwordInput.addEventListener("input", () => {
   if (passwordVerify(passwordInput.value)) {
