@@ -113,6 +113,11 @@ button {
   margin-top: 2em;
 }
 
+.text {
+  color: black;
+  text-align: center;
+}
+
 .required-color {
   color: #ff4747;
 }

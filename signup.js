@@ -206,6 +206,6 @@ submitButton.addEventListener("click", () => {
   if (validClasses.length == 8 || invalidClasses.length == 0) {
     window.open("http://127.0.0.1:5500/workout.html");
   } else {
-    alert("Please make sure all fields are valid!");
+    alert("Please make sure all fields are filled!");
   }
 });
