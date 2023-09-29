@@ -1,11 +1,11 @@
 //First Name
-let firstNameInput = document.getElementById("first-name-input");
-let firstNameError = document.getElementById("first-name-error");
-let emptyFirstNameError = document.getElementById("empty-first-name");
+let firstInput = document.getElementById("first-input");
+let firstError = document.getElementById("first-error");
+let emptyFirstError = document.getElementById("empty-first-name");
 
 //Last name
-let lastNameInput = document.getElementById("last-name-input");
-let lastNameError = document.getElementById("last-name-error");
+let lastInput = document.getElementById("last-input");
+let lastError = document.getElementById("last-error");
 let emptyLastNameError = document.getElementById("empty-last-name");
 
 // Fitness goal
@@ -58,6 +58,18 @@ const emailVerify = (input) => {
   return regex.test(input);
 };
 
+// First name verification
+const firstVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
+// Last name verification
+const lastVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
 //For empty input - accepts(input,empty error for that input and other errors)
 const emptyUpdate = (
   inputReference,
@@ -89,27 +101,24 @@ const validInput = (inputReference) => {
 };
 
 //First name
-firstNameInput.addEventListener("input", () => {
-  if (firstNameInput.value) {
-    //If verification returns true
-    firstNameError.classList.add("hide");
-    validInput(firstNameInput);
+firstInput.addEventListener("input", () => {
+  if (firstVerify(firstInput.value)) {
+    firstError.classList.add("hide");
+    validInput(firstInput);
   } else {
-    //for false
-    errorUpdate(firstNameInput, firstNameError);
-    //empty checker
-    emptyUpdate(firstNameInput, emptyFirstNameError, firstNameError);
+    errorUpdate(firstInput, firstError);
+    emptyUpdate(firstInput, emptyFirstError, firstError);
   }
 });
 
 //Last name
-lastNameInput.addEventListener("input", () => {
-  if (lastNameInput.value) {
-    lastNameError.classList.add("hide");
-    validInput(lastNameInput);
+lastInput.addEventListener("input", () => {
+  if (lastVerify(lastInput.value)) {
+    lastError.classList.add("hide");
+    validInput(lastInput);
   } else {
-    errorUpdate(lastNameInput, lastNameError);
-    emptyUpdate(lastNameInput, emptyLastNameError, lastNameError);
+    errorUpdate(lastInput, lastError);
+    emptyUpdate(lastInput, emptyLastNameError, lastError);
   }
 });
 //Email
