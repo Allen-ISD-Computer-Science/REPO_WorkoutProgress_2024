@@ -204,8 +204,8 @@ verifyPasswordInput.addEventListener("input", () => {
 //Submit button
 submitButton.addEventListener("click", () => {
   if (validClasses.length == 8 || invalidClasses.length == 0) {
-    window.open("https://www.w3schools.com/");
+    window.open("http://127.0.0.1:5500/workout.html");
   } else {
-    alert("Error");
+    alert("Please make sure all fields are valid!");
   }
 });
