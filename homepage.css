@@ -58,14 +58,26 @@ nav img {
   width: 100%;
 }
 
-.text-box {
-  width: 99%;
-  color: limegreen;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.h1,
+.header-1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   text-align: center;
+  color: limegreen;
+}
+
+.h2,
+.header-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: rgb(0, 132, 255);
 }
 
 .text-box h1 {
