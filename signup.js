@@ -204,7 +204,7 @@ verifyPasswordInput.addEventListener("input", () => {
 //Submit button
 submitButton.addEventListener("click", () => {
   if (validClasses.length == 8 || invalidClasses.length == 0) {
-    alert("Signup Successful!");
+    alert("Welcome " + firstInput.value + " ! " + ", you are now signed up!");
     window.open("http://127.0.0.1:5500/workout.html");
   } else {
     alert("Signup Failed!");

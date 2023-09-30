@@ -1,3 +1,8 @@
+//First name
+let firstInput = document.getElementById("first-input");
+let firstError = document.getElementById("first-error");
+let emptyFirstError = document.getElementById("empty-first-name");
+
 //Email
 let emailInput = document.getElementById("email");
 let emailError = document.getElementById("email-error");
@@ -15,11 +20,10 @@ let submitButton = document.getElementById("submit-button");
 let validClasses = document.getElementsByClassName("valid");
 let invalidClasses = document.getElementsByClassName("error");
 
-//Password Verification
-const passwordVerify = (password) => {
-  const regex =
-    /^(?=.+[a-z])(?=.+[A-Z])(?=.+[0-9])(?=.+[\$\%\^\&\!@\#\*\(\)\+\=`~\?\>\<])/;
-  return regex.test(password) && password.length >= 8;
+// First name verification
+const firstVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
 };
 
 // Email verification
@@ -27,6 +31,14 @@ const emailVerify = (input) => {
   const regex = /^[a-z0-9_]+@[a-z]{3,}\.[a-z\.]{3,}$/;
   return regex.test(input);
 };
+
+//Password Verification
+const passwordVerify = (password) => {
+  const regex =
+    /^(?=.+[a-z])(?=.+[A-Z])(?=.+[0-9])(?=.+[\$\%\^\&\!@\#\*\(\)\+\=`~\?\>\<])/;
+  return regex.test(password) && password.length >= 8;
+};
+
 //For empty input - accepts(input,empty error for that input and other errors)
 const emptyUpdate = (
   inputReference,
@@ -82,7 +94,7 @@ passwordInput.addEventListener("input", () => {
 //Submit button
 submitButton.addEventListener("click", () => {
   if (validClasses.length == 8 || invalidClasses.length == 0) {
-    alert("Login Successful!");
+    alert("Welcome " + firstInput.value + " ! " + ", you are now logged in!");
     window.open("http://127.0.0.1:5500/workout.html");
   } else {
     alert("Login Failed!");
