@@ -40,12 +40,6 @@ body {
   color: black;
 }
 
-.diet {
-  margin-right: 50px;
-  text-align: left;
-  color: black;
-}
-
 .email {
   text-align: left;
   color: black;
@@ -138,4 +132,24 @@ button {
   .container {
     font-size: 14px;
   }
+}
+
+.workout {
+  font-size: 20px;
+  color: white;
+}
+
+.diet {
+  font-size: 20px;
+  color: white;
+}
+
+.supplements {
+  font-size: 20px;
+  color: white;
+}
+
+.machines {
+  font-size: 20px;
+  color: white;
 }

@@ -128,3 +128,23 @@
   padding: 10px 20px;
   border-radius: 5px;
 }
+
+.workout {
+  font-size: 20px;
+  color: white;
+}
+
+.diet {
+  font-size: 20px;
+  color: white;
+}
+
+.supplements {
+  font-size: 20px;
+  color: white;
+}
+
+.machines {
+  font-size: 20px;
+  color: white;
+}

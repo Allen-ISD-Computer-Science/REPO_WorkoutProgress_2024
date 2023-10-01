@@ -91,6 +91,26 @@ h3,
   color: #dcdcdc;
 }
 
+.workout {
+  font-size: 20px;
+  color: white;
+}
+
+.diet {
+  font-size: 20px;
+  color: white;
+}
+
+.supplements {
+  font-size: 20px;
+  color: white;
+}
+
+.machines {
+  font-size: 20px;
+  color: white;
+}
+
 .text-box h1 {
   font-size: 40px;
 }
