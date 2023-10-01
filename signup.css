@@ -66,6 +66,10 @@ select {
   margin-right: 300px;
 }
 
+.already {
+  font-size: 20px;
+}
+
 body {
   background-color: tomato;
 }

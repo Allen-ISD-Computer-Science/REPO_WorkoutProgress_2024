@@ -39,6 +39,10 @@ select {
   margin-right: 300px;
 }
 
+.dont {
+  font-size: 20px;
+}
+
 body {
   background-color: tomato;
 }

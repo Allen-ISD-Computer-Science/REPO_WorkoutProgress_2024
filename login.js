@@ -3,6 +3,11 @@ let firstInput = document.getElementById("first-input");
 let firstError = document.getElementById("first-error");
 let emptyFirstError = document.getElementById("empty-first-name");
 
+//Last name
+let lastInput = document.getElementById("last-input");
+let lastError = document.getElementById("last-error");
+let emptyLastNameError = document.getElementById("empty-last-name");
+
 //Email
 let emailInput = document.getElementById("email");
 let emailError = document.getElementById("email-error");
@@ -22,6 +27,12 @@ let invalidClasses = document.getElementsByClassName("error");
 
 // First name verification
 const firstVerify = (input) => {
+  const regex = /^[a-zA-Z]{2,}$/;
+  return regex.test(input);
+};
+
+// Last name verification
+const lastVerify = (input) => {
   const regex = /^[a-zA-Z]{2,}$/;
   return regex.test(input);
 };
@@ -69,6 +80,28 @@ const validInput = (inputReference) => {
   inputReference.classList.add("valid");
 };
 
+//First input
+firstInput.addEventListener("input", () => {
+  if (firstVerify(firstInput.value)) {
+    firstError.classList.add("hide");
+    validInput(firstInput);
+  } else {
+    errorUpdate(firstInput, firstError);
+    emptyUpdate(firstInput, emptyFirstError, firstError);
+  }
+});
+
+//Last name
+lastInput.addEventListener("input", () => {
+  if (lastVerify(lastInput.value)) {
+    lastError.classList.add("hide");
+    validInput(lastInput);
+  } else {
+    errorUpdate(lastInput, lastError);
+    emptyUpdate(lastInput, emptyLastNameError, lastError);
+  }
+});
+
 //Email
 emailInput.addEventListener("input", () => {
   if (emailVerify(emailInput.value)) {
@@ -93,10 +126,10 @@ passwordInput.addEventListener("input", () => {
 
 //Submit button
 submitButton.addEventListener("click", () => {
-  if (validClasses.length == 8 || invalidClasses.length == 0) {
+  if (validClasses.length === 4 && invalidClasses.length === 0) {
     alert("Welcome " + firstInput.value + " ! " + ", you are now logged in!");
     window.open("http://127.0.0.1:5500/workout.html");
   } else {
-    alert("Login Failed!");
+    alert("Log In Failed, please fill out the fields!");
   }
 });

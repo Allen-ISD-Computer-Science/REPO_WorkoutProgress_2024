@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="/img/homepageimg.png">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
   </head>
@@ -40,6 +40,29 @@
       <img width="400" src="./img/homepageimg.png">
     </div>
     <div class="input-section">
+      <label class="first">First Name <span class="required-color">*</span></label>
+      <input type="text" placeholder="Enter First Name" id="first-input" required
+      />
+      <span id="first-error" class="hide required-color error-message"
+        >Invalid Input</span
+      >
+      <span id="empty-first-name" class="hide required-color error-message"
+        >First Name Cannot Be Empty</span
+      >
+      <br>
+      <div class="input-section">
+        <label class="last">Last Name <span class="required-color">*</span></label>
+        <input type="text " placeholder="Enter Last Name" id="last-input" required
+        />
+        <span id="last-error" class="hide required-color error-message"
+          >Invalid Input</span
+        >
+        <span id="empty-last-name" class="hide required-color error-message">
+          Last Name Cannot Be Empty
+        </span
+        >
+      <br>
+    <div class="input-section">
       <label class="email">Email <span class="required-color">*</span></label>
       <input type="email" placeholder="Enter Email" id="email" required />
       <span id="email-error" class="hide required-color error-message"
@@ -68,9 +91,10 @@
         Password Cannot Be Empty
       </span>
     </div>
-     <button class="signup" id="submit-button">Log In</button>
+     <button class="login" id="submit-button">Log In</button>
+     <br>
      <div class="text">
-      <h1>Don't have an account? <a href="http://127.0.0.1:5500/signup.html">Sign Up</a></h1>
+      <h1 class="dont">Don't have an account? <a href="http://127.0.0.1:5500/signup.html">Sign Up</a></h1>
      </div> 
     <br>
   </form>
