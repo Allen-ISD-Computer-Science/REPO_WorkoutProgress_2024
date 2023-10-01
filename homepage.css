@@ -80,6 +80,17 @@ nav img {
   color: rgb(0, 132, 255);
 }
 
+h3,
+.header-3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #dcdcdc;
+}
+
 .text-box h1 {
   font-size: 40px;
 }
