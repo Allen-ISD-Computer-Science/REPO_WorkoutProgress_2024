@@ -26,7 +26,7 @@
 }
 
 .beginner {
-  color: black;
+  color: #dcdcdc;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@
   border-radius: 5px;
 }
 .intermediate {
-  color: black;
+  color: #dcdcdc;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@
 }
 
 .advanced {
-  color: black;
+  color: #dcdcdc;
   flex-direction: column;
   align-items: center;
   justify-content: center;
