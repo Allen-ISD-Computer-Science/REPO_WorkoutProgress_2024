@@ -205,7 +205,7 @@ verifyPasswordInput.addEventListener("input", () => {
 submitButton.addEventListener("click", () => {
   if (validClasses.length === 5 && invalidClasses.length === 0) {
     alert("Welcome " + firstInput.value + " ! " + ", you are now signed up!");
-    window.open("http://127.0.0.1:5500/workout.html");
+      window.open("https://codermerlin.academy/users/kyle-hernandez/gymstarter-bulklikeabeast/workout.html");
   } else {
     alert("Signup Failed, please fill out the fields!");
   }
