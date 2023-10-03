@@ -23,14 +23,6 @@
   border-radius: 5px;
 }
 
-.abs {
-    color: black;
-}
-
-.h4 {
-    color: white;
-}
-
 .workout {
   font-size: 20px;
   color: white;
