@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+    <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/x-icon" href="/img/homepageimg.png">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+	<div class="nav-links" id="navLinks">
+	  <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+	  <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="aboutpage.html">About</a></li>
+      <li class="workout">Workout</li>
+      <li class="diet">Diet</a></li>
+      <li class="supplements">Supplements</a></li>
+      <li class="machines">Machines</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <li><a href="login.html">Log In</a></li>
+	  </ul>
+	  </ul>
+	  <i class="fa fa-times-circle-o"  onclick="showMenu()"></i>
+    <i class="fa fa-times-circle-o"  onclick="showMenu()"></i>
+  </div>
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+    
+    
+  </body>
+  </html>
+  <div class="container">
+    <div class="input-section">
+    <h1 class="intro">Welcome to Gym Starter: Bulk Like a Beast! Unleash your inner beast and reach your fitness goals. Let's get started!</h1>
+    <br>
+    <div style="text-align: center;">
+      <img width="400" src="./img/homepageimg.png">
+    </div>
+     <div class="input-section">
+      <label class="first">First Name <span class="required-color">*</span></label>
+      <input type="text" placeholder="Enter First Name" id="first-input" required
+      />
+      <span id="first-error" class="hide required-color error-message"
+        >Invalid Input</span
+      >
+      <span id="empty-first-name" class="hide required-color error-message"
+        >First Name Cannot Be Empty</span
+      >
+      <br>
+    </div>
+    <div class="input-section">
+      <label class="last">Last Name <span class="required-color">*</span></label>
+      <input type="text " placeholder="Enter Last Name" id="last-input" required
+      />
+      <span id="last-error" class="hide required-color error-message"
+        >Invalid Input</span
+      >
+      <span id="empty-last-name" class="hide required-color error-message">
+        Last Name Cannot Be Empty
+      </span
+      >
+      <br>
+    </div>
+    <div class="input-section">
+      <label class="email">Email <span class="required-color">*</span></label>
+      <input type="email" placeholder="Enter Email" id="email" required />
+      <span id="email-error" class="hide required-color error-message"
+        >Invalid Email</span
+      >
+      <span id="empty-email" class="hide required-color error-message"
+        >Email Cannot Be Empty</span
+      >
+      <br>
+    </div>
+    <div class="input-section">
+    <label class="fitness-level">Fitness Level <span class="required-color">*</span></label>
+      <span id="fit-level-error" class="hide required-color error-message"
+      >Invalid Selection</span
+    >
+    <span id="empty-fit-level" class="hide required-color error-message">
+      Fitness Level Cannot Be Empty
+    </span
+    >
+  <select id="fit-level-input">
+    <option value="">Select a fitness level</option>
+    <option value="option1">Beginner</option>
+    <option value="option2">Intermediate</option>
+    <option value="option3">Advanced</option>
+</select>
+<div class="input-section">
+  <label class="fitness-goal">Fitness Goal <span class="required-color">*</span></label>
+    <span id="fit-goal-error" class="hide required-color error-message"
+    >Invalid Selection</span
+  >
+  <span id="empty-fit-goal" class="hide required-color error-message">
+    Fitness Goal Cannot Be Empty
+  </span
+  >
+<select id="fit-goal-input">
+  <option value="">Select a fitness goal</option>
+  <option value="option1">Weight Loss</option>
+  <option value="option2">Muscle Building</option>
+</select>
+<div class="input-section">
+  <label class="diets">Diet <span class="required-color">*</span></label>
+    <span id="diet-error" class="hide required-color error-message"
+    >Invalid Selection</span
+  >
+  <span id="empty-diet" class="hide required-color error-message">
+    Diet Cannot Be Empty
+  </span
+  >
+<select id="diet-input">
+  <option value="">Select a diet</option>
+  <option value="option1">Balanced Diet</option>
+  <option value="option2">Calorie Control</option>
+  <option value="option3">High Protein</option>
+  <option value="option3">Low Carb Diet</option>
+</select>
+    </div>
+    <div class="input-section">
+      <br>
+      <label class="password">Password <span class="required-color">*</span></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        id="password"
+        required
+      />
+      <br>
+      <span id="password-error" class="hide required-color error-message">
+        Passwords Should Have Letter, Special symbols, Numbers And Length >=
+        8
+      </span>
+      <span id="empty-password" class="hide required-color error-message">
+        Password Cannot Be Empty
+      </span>
+    </div>
+    <div class="input-section">
+      <label class="confirm">Confirm Password <span class="required-color">*</span></label>
+      <input
+        type="password"
+        id="verify-password"
+        placeholder="Confirm Password"
+        required
+      />
+      <span
+        id="verify-password-error"
+        class="hide required-color error-message"
+        >Should Be Same As Previous Password</span
+      >
+      <span
+        id="empty-verify-password"
+        class="hide required-color error-message"
+        >Password Cannot Be Empty</span
+      >
+    </div>
+     <button class="signup" id="submit-button">Signup</button>
+     <br>
+     <div class="text">
+      <h1 class="already">Already have an account? <a href="https://codermerlin.academy/users/kyle-hernandez/gymstarter-bulklikeabeast/login.html">Log In</a></h1>
+     </div> 
+    <br>
+  </form>
+</div>
+<!-- Script -->
+    <script src="signup.js"></script>
+  </body>
