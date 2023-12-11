@@ -1,0 +1,14 @@
+:root {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135 deg, #ADD8E6, #00FFFF);
+    padding: 10px;
+}
