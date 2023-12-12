@@ -1,7 +1,7 @@
 # Vision Statement
 Through visual representation and thorough explanations, we aim to impact newcomers to the gym, hopefully helping them gain confidence and familiarity with gym equipments.
 
-# Roles
+## Roles
 | Role            | Name            | GitHub                                            | Web Portfolio                                                                                                         |
 |-----------------|-----------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Product Manager | Myoram Langwang | [Myoram-Langwang](https://github.com/Myoram1)              | [Myoram's Portfolio](https://www.codermerlin.academy/users/myoram-langwang/Digital%20Portfolio/index.html)                                                                                
