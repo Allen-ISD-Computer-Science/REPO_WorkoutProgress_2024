@@ -1,5 +1,1 @@
-# This is where everyone will gather all their progress which will then be reviewed
-
-## Development Site
-[Bulk-Like-A-Beast](https://codermerlin.academy/users/kyle-hernandez/gymstarter-bulklikeabeast/homepage.html)
-
+Kyle refer to https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/issues/13
