@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fullPage {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fc-bg-event {
+  opacity: 1 !important;
+}
+
+.fc-daygrid-day-number {
+  text-decoration: none !important;
+}
