@@ -7,24 +7,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ErrorPage from "./pages/ErrorPage";
 import Welcome from './pages/Welcome';
+import Workouts from './pages/Workouts';
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/welcome",
-    element: <Welcome />,
-  },
+    {
+	path: "/",
+	errorElement: <ErrorPage />,
+    },
+    {
+	path: "/welcome",
+	element: <Welcome />,
+    },
+    {
+	path: "/workouts",
+	element: <Workouts />
+    },
 ],
 {
-  basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",
+basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+    <React.StrictMode>
+	<RouterProvider router={router} />
+    </React.StrictMode>
 );

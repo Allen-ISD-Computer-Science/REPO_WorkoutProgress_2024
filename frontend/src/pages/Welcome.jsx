@@ -1,8 +1,9 @@
+import './test.css';
+
 function Welcome() {
     return (
-	<section>
-	    <img><img>
-	    <p>Hi</p>
+	<section>	    
+	    <p class="text">Hi</p>
 	</section>
     );
 }

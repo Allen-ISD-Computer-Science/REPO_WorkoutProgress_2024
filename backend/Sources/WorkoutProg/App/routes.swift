@@ -17,9 +17,14 @@ func routes(_ app: Application) throws {
     app.get("welcome") { req in
         return try await renderIndex(req)
     }
+
+    app.get("workouts") { req in
+        return try await renderIndex(req)
+    }
+    
     /// START CORE SITE ENDPOINTS
     
-    // Create protected route group which requires user auth.
+    // Create protected route group which requires user auth. We will need this comment section
     let sessions = app.grouped([User.sessionAuthenticator(), User.credentialsAuthenticator()])
     let protected = sessions.grouped(User.redirectMiddleware(path: "./signin"))
 

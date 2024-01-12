@@ -1,0 +1,9 @@
+/* currently there is nothing here but this is the css file for all main pages that
+direct to a page containing information */
+
+body {
+    background: lightgrey;
+}
+div.col {
+    height: 100%;
+}
