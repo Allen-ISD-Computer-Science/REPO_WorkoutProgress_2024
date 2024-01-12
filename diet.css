@@ -1,4 +1,4 @@
-.diets {
+.workouts {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,20 @@
   font-weight: 700;
   font-size: 30px;
 }
+/* div.mycontainer {
+    width:100%;
+    overflow:100%;
+}    	     
 
+div.mycontainer div {
+    width:33%;
+    float:left;
+}
+*/
+intstybox1 {
+    width:100%;
+    overflow:100%;
+}
 .beginner {
   color: #dcdcdc;
   flex-direction: column;
