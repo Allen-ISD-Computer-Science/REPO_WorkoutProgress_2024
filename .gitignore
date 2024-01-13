@@ -11,4 +11,4 @@ Tests/LinuxMain.swift
 .env*
 .\#*
 .nfs*
-backend/*
+backend/.build/
