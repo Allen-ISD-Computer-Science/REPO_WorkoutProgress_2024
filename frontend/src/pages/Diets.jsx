@@ -4,7 +4,7 @@ import '../styles/frontpages.css'
 import test_image from '../images/pixelman_still.png';
 
 
-function Workouts() {
+function Diets() {
     return (	
 	<Row className="text-center vh-100">	    	    
 	    <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
@@ -14,7 +14,7 @@ function Workouts() {
 	    
 	    <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
 	   	<img src={test_image} alt="2" class="workouts img-fluid"/>
-		<Button href="./inermediate" className="workouts_btn-style">Intermediate</Button>
+		<Button href="./intermediate" className="workouts_btn-style">Intermediate</Button>
 	    </Col>
 	    
 	    <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
@@ -25,4 +25,4 @@ function Workouts() {
     );
 }
 
-export default Workouts;
+export default Diets;

@@ -22,6 +22,15 @@ func routes(_ app: Application) throws {
         return try await renderIndex(req)
     }
     
+    app.get("diets") { req in
+        return try await renderIndex(req)
+    }
+    
+    app.get("about_us") { req in
+        return try await renderIndex(req)
+    }
+    
+    
     /// START CORE SITE ENDPOINTS
     
     // Create protected route group which requires user auth. We will need this comment section
