@@ -1,14 +1,12 @@
 import Stack from 'react-bootstrap/Stack';
-import {Row, Col, Card} from 'react-bootstrap';
-
+import {Carousel, Col} from 'react-bootstrap';
 import test_img from '../images/pixelman_still.png';
-
 
 function AboutUs() {
     return(	
 	<body>
 	    <Stack gap={3} className="mx-5 border border-danger">
-		<Row>
+		<Col>
 		    <h1>
 			Our Goal
 		    </h1>
@@ -17,10 +15,16 @@ function AboutUs() {
 			Weather you are just getting started or already in the fitness game, our mission
 			is to assist you in achieving your dream physique.			
 		    </p>		    
-		</Row>
-		<Row>
-		    //use a carousel instead, looks weird with cards. this is for info on founders
-		</Row>
+		</Col>
+		<Carousel>
+			<Carousel.Item className="text-center">
+			    <img src={test_img} alt="test#1" class="img-fluid"/>
+			    <Carousel.Caption className="d-block">			    
+				<h3>Name</h3>
+				<p>My name is Matt</p>			    
+			    </Carousel.Caption>
+			</Carousel.Item>
+		</Carousel>
 	    </Stack>
 	</body>
     );
