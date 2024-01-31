@@ -1,0 +1,246 @@
+
+.diets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+/*  padding: 0 1rem;*/
+  color: limegreen;
+  font-size: 80px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  color: rgb(0, 132, 255);
+  font-weight: 700;
+  font-size: 30px;
+}
+protein {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #EB7B51;
+    color: #EB19
+}
+
+
+.beginner {
+  color: #dcdcdc;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 0 auto;
+  width: 30%;
+  Height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: left;
+}
+
+.beginner-desc {
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margi4n: 0 auto;
+  width: 60%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+
+.beginner-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+}
+.intermediate {
+  color: #dcdcdc;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: left;
+}
+
+.intermediate-desc {
+  color: white
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  
+}
+.subintL {
+  /*  background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    border: 2px solid #f1f1f1;
+    color: rgb(0, 132, 255);
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 10 px;
+  width: 30%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+ */
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  font-size: 15px;
+  
+ /* position: absolute;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; */
+  width: 30%; 
+  padding: 10px;
+  text-align: left;
+}
+.subintM {
+   /* color: grey;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 10 px;
+  width: 30%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  */
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: grey;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  font-size: 15px;
+    width: 30%; 
+  padding: 10px;
+  text-align: left;
+
+
+    
+}  
+
+.subintR {
+/*    color: limegreen;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  margin: 10 px;
+  width: 30%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  float: right;
+*/
+
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: limegreen;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  font-size: 15px;
+    width: 30%; 
+  padding: 10px;
+  text-align: left;
+
+}
+
+
+.intermediate-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.advanced {
+  color: #dcdcdc;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: left;
+}
+
+.advanced-desc {
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+
+.advanced-btn {
+  background-color: red;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.supplements {
+  font-size: 20px;
+  color: white;
+}
+
+
