@@ -3,9 +3,9 @@
 direct to a page containing information */
 
 @import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
 body {
     background: lightgrey;
-    overflow: hidden; /* prevent scrolling */
 }
 
 a {
@@ -32,7 +32,5 @@ a {
     border-color: black;
     color: black;
 }
-
-
 
 
