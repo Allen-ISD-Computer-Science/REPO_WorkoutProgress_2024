@@ -29,6 +29,10 @@ func routes(_ app: Application) throws {
     app.get("about_us") { req in
         return try await renderIndex(req)
     }
+
+    app.get("equipment") {req in
+        return try await renderIndex(req)
+    }
     
     
     /// START CORE SITE ENDPOINTS

@@ -10,6 +10,7 @@ import Welcome from './pages/Welcome';
 import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
+import Equipment from './pages/Equipment';
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     {
 	path: "/about_us",
 	element: <About />
+    },
+    {
+	path: "/equipment",
+	element: <Equipment />
     },
 
 ],
