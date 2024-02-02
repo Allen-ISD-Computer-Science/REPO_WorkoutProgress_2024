@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script for building on CoderMerlin
-# Copyright (C) 2023 Ryan Hallock, Muqadam Sabir, David Ben-Yaakov
+# Copyright (C) 2023 Matthew Roman
 # This program was developed using codermerlin.academy resources.
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
