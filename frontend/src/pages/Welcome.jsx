@@ -21,7 +21,7 @@ function Welcome() {
   };
 
   return (
-    <div>
+     <div>
       <section className="header" style={{ backgroundColor: 'darkblue', padding: '10px' }}>
         <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <a href="homepage.html" style={{ textDecoration: 'none', color: 'white' }}>
@@ -42,7 +42,6 @@ function Welcome() {
           <i className="fa fa-bars" onClick={() => showMenu()} style={{ cursor: 'pointer' }}></i>
         </nav>
       </section>
-
       <div className="text-box">
         <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', fontWeight: 'bold', textAlign: 'center', color: 'green', marginBottom: '20px' }}>
           Welcome to Gym Starter Bulk like a Beast!
