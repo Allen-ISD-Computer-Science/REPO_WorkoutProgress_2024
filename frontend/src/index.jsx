@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// main pages
 import ErrorPage from './pages/ErrorPage';
 import Welcome from './pages/Welcome';
 import Workouts from './pages/Workouts';
@@ -12,6 +13,9 @@ import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
 import Beginner from './pages/Beginner';
+
+// sub pages
+import BeginnerWorkouts from './pages/workouts/Beginner';
 
 const router = createBrowserRouter([
     {
@@ -39,10 +43,9 @@ const router = createBrowserRouter([
 	element: <Equipment />
     },
     {
-	path: "/beginner",
-	element: <Beginner />
-    },
-
+	path: "/workouts/beginner",
+	element: <BeginnerWorkouts />
+    },    
 ],
 {
 basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",
