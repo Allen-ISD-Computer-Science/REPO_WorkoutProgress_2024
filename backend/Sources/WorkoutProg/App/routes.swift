@@ -38,6 +38,9 @@ func routes(_ app: Application) throws {
     app.get("workouts", "beginner") {req in
         return try await renderIndex(req)
     }
+    app.get("workouts", "intermediate") {req in
+        return try await renderIndex(req)
+    }
 
     
     /// START CORE SITE ENDPOINTS

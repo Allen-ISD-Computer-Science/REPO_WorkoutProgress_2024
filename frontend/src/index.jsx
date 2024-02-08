@@ -16,6 +16,7 @@ import Beginner from './pages/Beginner';
 
 // sub pages
 import BeginnerWorkouts from './pages/workouts/Beginner';
+import IntermediateWorkouts from './pages/workouts/Intermediate';
 
 const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
     {
 	path: "/workouts/beginner",
 	element: <BeginnerWorkouts />
+    },    
+    {
+	path: "/workouts/intermediate",
+	element: <IntermediateWorkouts />
     },    
 ],
 {

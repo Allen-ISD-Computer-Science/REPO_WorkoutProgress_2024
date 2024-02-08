@@ -71,12 +71,12 @@ function Workouts() {
       <Row className="text-center vh-100">
         <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
             <img src={beginner_image} alt="1" className="workouts img-fluid" />
-          <Button href="./beginner" className="workouts_btn-style">Beginner</Button>
+            <Button href="./workouts/beginner" className="workouts_btn-style">Beginner</Button>
         </Col>
 
         <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
             <img src={intermediate_image} alt="2" className="workouts img-fluid" />
-          <Button href="./inermediate" className="workouts_btn-style">Intermediate</Button>
+          <Button href="./workouts/intermediate" className="workouts_btn-style">Intermediate</Button>
         </Col>
 
         <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
