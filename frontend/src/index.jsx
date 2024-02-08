@@ -11,6 +11,7 @@ import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
+import Beginner from './pages/Beginner';
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
     {
 	path: "/equipment",
 	element: <Equipment />
+    },
+    {
+	path: "/beginner",
+	element: <Beginner />
     },
 
 ],
