@@ -12,23 +12,16 @@ import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
-
 import Supplements from './pages/Supplements';
 
 // sub pages
-import BeginnerWorkouts from './pages/workouts/Beginner';
-import AdvancedWorkouts from './pages/workouts/Advanced';
-
 import BeginnerDiets from './pages/diets/Beginner';
 import IntermediateDiets from './pages/diets/Intermediate';
 import AdvancedDiets from './pages/diets/Advanced';
 
-import Beginner from './pages/Beginner';
-
-// sub pages
 import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
-
+import AdvancedWorkouts from './pages/workouts/Advanced';
 
 const router = createBrowserRouter([
     {

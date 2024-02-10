@@ -1,55 +1,53 @@
-import '../styles/frontpages.css';
-
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import {Row,Col} from 'react-bootstrap/';
 
+import '../styles/frontpages.css';
 import test_image from '../images/pixelman_still.png';
+import Nav from '../components/Navbar.jsx';
 
 function Equipment() {
     return (
-
 	<section>
-	    <Row class="h-50 mw-100">
-		<Col className="w-20">		    
+	    <Nav />
+	    <Row class="vh-50 vw-100 justify-content-between">
+		<Col className="">		    
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 	    </Row>
-	    
-	    <Row class="h-50 mw-100">
-		<Col className="w-20">
+
+	    <Row class="vh-50 vw-100 justify-content-between">
+		<Col className="w-20 ">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="w-20 ">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="w-20 ">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="w-20 ">
 		    <img alt="1" class="workouts img-fluid"/>		    
 		</Col>
 		
-		<Col className="w-20">
+		<Col className="w-20 ">
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>		  
 		</Col>
 	    </Row>
