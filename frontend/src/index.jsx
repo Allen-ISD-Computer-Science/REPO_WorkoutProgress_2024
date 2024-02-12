@@ -5,12 +5,23 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// main pages
 import ErrorPage from './pages/ErrorPage';
 import Welcome from './pages/Welcome';
 import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
+import Supplements from './pages/Supplements';
+
+// sub pages
+import BeginnerDiets from './pages/diets/Beginner';
+import IntermediateDiets from './pages/diets/Intermediate';
+import AdvancedDiets from './pages/diets/Advanced';
+
+import BeginnerWorkouts from './pages/workouts/Beginner';
+import IntermediateWorkouts from './pages/workouts/Intermediate';
+import AdvancedWorkouts from './pages/workouts/Advanced';
 
 const router = createBrowserRouter([
     {
@@ -37,7 +48,35 @@ const router = createBrowserRouter([
 	path: "/equipment",
 	element: <Equipment />
     },
-
+    {
+	path: "/supplements",
+	element: <Supplements />
+    },
+    
+    {
+	path: "/workouts/beginner",
+	element: <BeginnerWorkouts />
+    },
+    {
+	path: "/workouts/advanced",
+	element: <AdvancedWorkouts />
+    },
+    {
+	path: "/diets/beginner",
+	element: <BeginnerDiets />
+    },
+    {
+	path: "/diets/intermediate",
+	element: <IntermediateDiets />
+    },
+    {
+	path: "/diets/Advanced",
+	element: <AdvancedDiets />
+    },    
+    {
+	path: "/workouts/intermediate",
+	element: <IntermediateWorkouts />
+    },    
 ],
 {
 basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",
