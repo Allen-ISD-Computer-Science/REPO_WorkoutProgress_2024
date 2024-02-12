@@ -1,13 +1,25 @@
-import ReactDOM from 'react-dom';
-import {Col, Row, Table} from 'react-bootstrap/';
+import {Row, Col} from 'react-bootstrap';
+import {useState} from 'react';
 import test_img from '../../images/pixelman_still.png'
-import '../../styles/workouts.css'
+
+import Chest from '../../components/beginner/Chest.jsx';
 
 function Beginner_Workouts() {
+
+    // usestate is an array with two values, the first is the current state at any iteration and the
+    // second is the function that updates the state
+    const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none']); // values of indicies
     
+
+    function toggle(index) {
+	// 'map' iterates through the array, prevState inside the 'map' is the value of the iterationIndex as map iterates.
+	// if the index while the 'map function' iterates is equal to the index of the corresponding Column below
+	// then it performs the long operation inside the () or it defaults to none if there not equal
+	setStates(prevStates => prevStates.map((prevState, iterationIndex) =>
+	    iterationIndex === index ? (prevState === 'block' ? 'none' : 'block') : 'none'));	
+    }
+    // basically this function closes all other info's on workouts to avoid stacking the information
     
-    
-    //make indivdual boxes with the type of thing they work on and when they open one it shows info on it.
     return (	    
 	<section>	    
 	    <Row className="mb-5">		
@@ -18,97 +30,44 @@ function Beginner_Workouts() {
 		</p>
 	    </Row>
 	    <Row className="h-30 mb-5 justify-contnent-around">
-		<Col className="w-33 text-center">
+		<Col className="w-33 text-center" onClick={() => toggle(0)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Chest Workouts</h3>
 		</Col>
-		<Col className="w-33 stack text-center">
+		<Col className="w-33 stack text-center" onClick={() => toggle(1)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Shoulder Workouts</h3>
 		</Col>		    
-		<Col className="w-33 text-center">
+		<Col className="w-33 text-center" onClick={() => toggle(2)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Leg Workouts</h3>
 		</Col>		
 	    </Row>
 	    <Row className="h-30 mb-5 justify-contnent-around">
-		<Col className="text-center">
+		<Col className="text-center" onClick={() => toggle(3)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Back Workouts</h3>
 		</Col>
-		<Col className="text-center">
+		<Col className="text-center" onClick={() => toggle(2)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Arm Workouts</h3>
 		</Col>
 	    </Row>
-	    <Row className="info mx-6">
-		<h1 class="mb-5 text-center">
-		    The CHEST: Building a strong Foundation
-		</h1>
-
-		<h4>Overview</h4>
-		<p>
-		    The chest is often the part of the body that steals the show, one of the most iconic examples is Arnold Schwarzenegger.
-		    Renowned not only for his significant impact on fitness but also for his remarkable chest, it captivated the attention
-		    of not just women, but also men. While you may not be aiming or are ready for an insane chest, it's important to know
-		    what truly makes a good chest.
-		</p>
-		
-		<h4>Major Anatomy of the chest</h4>
-		<h5>Pectoralis Major</h5>
-		<p>
-		    Often when people think of their chest this is the part. It covers most of the upper front surface of the torso and is
-		    the principle muscle that performs action in chest-focused and upper-body exercises. It originates from the clavicle and
-		    sternum, and it moves and flexes your upper arm. Within this muscle there are two compartments, the Clavicular and
-		    Sterncostal heads. When it comes to upper chest training think of working your Clavicular head, else think Sterncostal
-		    for lower chest training even though there is no distinct "lower chest" in a anatomical sense.
-		</p>
-		<h5>Pectoralis Minor</h5>
-		<p>
-		    This muscle sits right underneat the Clavicular fibers of your Pec Mejor. It originates on your upper rib cage and goes
-		    through the edge of the sholder blade. It helps to pull the scapula foward and assists with shoulder and upper arm
-		    stability.		    
-		</p>				
-	    </Row>
-	    <Row className="info lg-mx-6 md-mx-3 sm-mx-1">
-		<h1 class="text-center">
-		    Chest Workouts
-		</h1>
-		<p class="text-center">
-		    Here is what we gathered that we think best fits a beginner level chest workout routine. 
-		</p>
-		<Table reponsive>
-		    <thead>
-			<tr>
-			    <th>Exercise</th>
-			    <th>Sets</th>
-			    <th>Reps</th>			    
-			</tr>
-		    </thead>
-		    <tbody>
-			<tr>
-			    <td>Barbell Bench Press</td>
-			    <td>3-4</td>
-			    <td>10-12</td>			   
-			</tr>
-			<tr>
-			    <td>Incline Bench Press</td>			    
-			    <td>3-4</td>
-			    <td>10-15</td>			    
-			</tr>
-			<tr>
-			    <td>Decline Bench Press</td>
-			    <td>4-5</td>			    
-			    <td>10-15</td>			  			    
-			</tr>
-			<tr>
-			    <td>Incline Dumbell Fly</td>
-			    <td>3</td>
-			    <td>10-15</td>
-			</tr>
-		    </tbody>
-		</Table>
-	    </Row>
+	    <div style={{display: states[0]}}>
+		<Chest />
+	    </div>
+	    <div style={{display: states[1]}}>
+		<p>shoulder</p>
+	    </div>
+	    <div style={{display: states[2]}}>
+		<p>leg</p>
+	    </div>
+	    <div style={{display: states[3]}}>
+		<p>back</p>
+	    </div>
+	    <div style={{display: states[4]}}>
+		<p>arm</p>
+	    </div>
 	    
 	</section>
     );
