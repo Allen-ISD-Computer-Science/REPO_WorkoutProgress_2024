@@ -28,7 +28,7 @@ function Diets() {
     return (
 	// top navihgation bar
 	<div>
-	   
+	    
 	    <section className="header" style={{ backgroundColor: 'darkblue', padding: '10px' }}>
 		<nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
 		    <a href="homepage.html" style={{ textDecoration: 'none', color: 'white' }}>
@@ -56,39 +56,40 @@ function Diets() {
 	    </div>
 
 	    
-	    <Row className="text-center vh-100">	    	    
-		<Col className="w-33 d-flex justify-content-center align-items-center flex-column">
+	    
+	    <levelcolumn>
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>
 		    <Button href="./beginner" className="workouts_btn-style">New</Button>
-		    <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', textAlign: 'center', color: 'blue', marginBottom: '20px' }}>
+		    <h1 className="subintL">
 			Diets for new athletes,
 			foods to fuel your body
 			and build growth
-			</h1>
-		</Col>
+		    </h1>
+		</levelcolumn>
 		
-		<Col className="w-33 d-flex justify-content-center align-items-center flex-column">
+		<levelcolumn>
 		    <img src={test_image} alt="2" class="workouts img-fluid"/>
 		    <Button href="./intermediate" className="workouts_btn-style">Intermediate</Button>
-		    <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', textAlign: 'center', color: 'blue', marginBottom: '20px' }}>
+		    <h1 className="subintL">
 			Diets for skilled athletes that limit unhealthy additives, but don' compromise on flavor.
-			
-			
-			</h1>
+		    </h1>
+		    
 
-		</Col>
+
+		</levelcolumn>
 		
-		<Col className="w-33 d-flex justify-content-center align-items-center flex-column">
+		<levelcolumn>
 		    <img src={test_image} alt="3" class="workouts img-fluid"/>
 		    <Button href="./advanced" className="workouts_btn-style">Pro</Button>
-		    <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', textAlign: 'center', color: 'blue', marginBottom: '20px' }}>
+		    
+		    <h1 className="subintL">
 			Diets for seasoned athletes, focus on specific nutrition groups for maximum performance.
 			
 			
-			</h1>
+		    </h1>
 
-		</Col>
-	    </Row>
+		</levelcolumn>
+	    
 	</div>
     );
 }
