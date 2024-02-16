@@ -1,8 +1,7 @@
 import { Row, Col, Button } from 'react-bootstrap';
 
 import '../styles/frontpages.css'
-import test_image from '../images/bottle.png';
-import Nav from '../components/Navbar.jsx';
+import test_image from '../images/pixelman_still.png';
 
 function Diets() {
     const spacing = 2;
@@ -58,9 +57,7 @@ function Diets() {
 	    
 	    
 	    <levelcolumn>
-		<levelimage>
 		    <img src={test_image} alt="1" class="workouts img-fluid"/>
-		    </levelimage>
 		    <Button href="./beginner" className="workouts_btn-style">New</Button>
 		    <h1 className="subintL">
 			Diets for new athletes,
