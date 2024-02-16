@@ -2,7 +2,6 @@ import { Row, Col, Button } from 'react-bootstrap';
 
 import '../styles/frontpages.css'
 import test_image from '../images/pixelman_still.png';
-import Nav from '../components/Navbar.jsx';
 
 function Diets() {
     const spacing = 2;
