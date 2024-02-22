@@ -81,7 +81,7 @@ function Workouts() {
 
         <Col className="w-33 d-flex justify-content-center align-items-center flex-column">
           <img src={advanced_image} alt="3" className="workouts img-fluid" />
-          <Button href="./advanced" className="workouts_btn-style">Advanced</Button>
+          <Button href="./workouts/advanced" className="workouts_btn-style">Advanced</Button>
         </Col>
       </Row>
     </div>
