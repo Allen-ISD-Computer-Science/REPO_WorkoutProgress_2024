@@ -1,4 +1,3 @@
-import Nav from '../components/Navbar.jsx';
 
 function AboutUs() {
  const spacing = 2;
