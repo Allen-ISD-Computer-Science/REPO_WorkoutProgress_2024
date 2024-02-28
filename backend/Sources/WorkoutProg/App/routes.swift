@@ -33,9 +33,37 @@ func routes(_ app: Application) throws {
     app.get("equipment") {req in
         return try await renderIndex(req)
     }
+
     app.get("quotes") {req in
         return try await renderIndex(req)
     }
+
+    app.get("supplements") {req in
+        return try await renderIndex(req)
+    }
+
+
+    // request url ...workouts/beginner, must use comma for such pages
+    app.get("workouts", "beginner") {req in
+        return try await renderIndex(req)
+    }
+    app.get("workouts", "advanced") {req in
+        return try await renderIndex(req)
+    }
+    app.get("diets", "beginner") {req in
+        return try await renderIndex(req)
+    }
+    app.get("diets", "intermediate") {req in
+        return try await renderIndex(req)
+    }
+    app.get("diets", "advanced") {req in
+        return try await renderIndex(req)
+    }       
+    app.get("workouts", "intermediate") {req in
+        return try await renderIndex(req)
+    }
+
+>>>>>>> 376c6a5d17d1889647ad4b608314288627576930
     
     /// START CORE SITE ENDPOINTS
     
