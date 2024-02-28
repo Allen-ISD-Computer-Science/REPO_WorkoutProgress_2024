@@ -33,7 +33,9 @@ func routes(_ app: Application) throws {
     app.get("equipment") {req in
         return try await renderIndex(req)
     }
-    
+    app.get("quotes") {req in
+        return try await renderIndex(req)
+    }
     
     /// START CORE SITE ENDPOINTS
     
