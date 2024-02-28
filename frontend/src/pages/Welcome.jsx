@@ -32,13 +32,10 @@ function Welcome() {
             <i className="fa fa-times-circle-o" onClick={() => hideMenu()} style={{ cursor: 'pointer', marginLeft: '10px' }}></i>
             <ul style={{ listStyleType: 'none', margin: 0, padding: 0, display: 'flex' }}>
               <li><a href="homepage.html" style={navLinkStyle}>Home</a></li>
-<<<<<<< HEAD
-              <li><a href="https://codermerlin.academy/vapor/fyodor-theodore-yakovlev/about_us" style={navLinkStyle}>About</a></li>
-		<li><a href="https://codermerlin.academy/vapor/fyodor-theodore-yakovlev/workouts" className="workout" style={{ ...navLinkStyle, cursor: 'pointer' }}>Workout</a></li>
-=======
               <li><a href="about_us" style={navLinkStyle}>About</a></li>
 		<li><a href="workouts" className="workout" style={{ ...navLinkStyle, cursor: 'pointer' }}>Workout</a></li>
->>>>>>> ccb22bbe0a6bad799956e44b2e4fac30f9c21721
+              <li><a href="about_us" style={navLinkStyle}>About</a></li>
+		<li><a href="workouts" className="workout" style={{ ...navLinkStyle, cursor: 'pointer' }}>Workout</a></li>
               <li className="diet" onClick={() => alert('You will need an account to access the diets!')} style={{ ...navLinkStyle, cursor: 'pointer' }}>Diet</li>
               <li className="supplements" onClick={() => alert('You will need an account to access the supplements!')} style={{ ...navLinkStyle, cursor: 'pointer' }}>Supplements</li>
               <li><a href="signup.html" style={navLinkStyle}>Sign Up</a></li>

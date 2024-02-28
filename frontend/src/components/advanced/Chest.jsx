@@ -6,10 +6,10 @@ function Chest() {
 	<section>
 	    <Row className="info mx-lg-6 mx-md-5 mx-sm-3 mx-4">
 		<h1 class="text-center">
-		    Monday: Chest and Triceps
+		    Monday: Chest and
 		</h1>
 		<p class="text-center">
-		    Here is what we gathered that we think best fits a intermediate level workouts routine. 
+		    Here is what we gathered that we think best fits an advanced level workout routine. 
 		</p>
 		<Table>
 		    <thead>
@@ -21,18 +21,23 @@ function Chest() {
 		    </thead>
 		    <tbody>
 			<tr>
-			    <td>Dumbbell Bench Press</td>
-			    <td>3</td>
-			    <td>10-10-8</td>			   
+			    <td>Barbell Bench Press</td>
+			    <td>5</td>
+			    <td>6-8-8-10-10</td>			   
 			</tr>
 			<tr>
-			    <td>Incline Dumbbell Bench Press</td>			    
-			    <td>3</td>
-			    <td>10</td>			    
+			    <td>Incline Barbell Bench Press</td>			    
+			    <td>4</td>
+			    <td>8</td>			    
+			</tr>
+			<tr>
+			    <td>Dumbbell Flys</td>
+			    <td>4</td>
+			    <td>10-10-12-12</td>
 			</tr>
 			<tr>
 			    <td>Chest Dip</td>
-			    <td>3</td>			    
+			    <td>4</td>			    
 			    <td>Until Failure</td>			  			    
 			</tr>
 		    </tbody>
@@ -49,16 +54,16 @@ function Chest() {
 			<tr>
 			    <td>Lying Tricep Extension</td>
 			    <td>3</td>
-			    <td>8-10</td>
+			    <td>8-10-10</td>
 			</tr>
 			<tr>
-			    <td>One Arm Dumbbell Extension</td>
+			    <td>Tricep Dip</td>
 			    <td>3</td>
-			    <td>10</td>
+			    <td>Until Failure</td>
 			</tr>
 			<tr>
 			    <td>Tricep Extension</td>
-			    <td>3</td>
+			    <td>4</td>
 			    <td>10</td>
 			</tr>
 		    </tbody>
@@ -68,5 +73,4 @@ function Chest() {
 
     );
 }
-
 export default Chest;
