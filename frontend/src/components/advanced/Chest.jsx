@@ -6,7 +6,7 @@ function Chest() {
 	<section>
 	    <Row className="info mx-lg-6 mx-md-5 mx-sm-3 mx-4">
 		<h1 class="text-center">
-		    Monday: Chest and
+		    Monday: Chest and Triceps
 		</h1>
 		<p class="text-center">
 		    Here is what we gathered that we think best fits an advanced level workout routine. 

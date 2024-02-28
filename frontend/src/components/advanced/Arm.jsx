@@ -7,7 +7,7 @@ function Arm() {
 		<h1 class="text-center">
 		Friday: Arms </h1>
 		<p class="text-center">
-		    Here is what we gathered that we think best fits a intermediate level workouts routine.
+		    Here is what we gathered that we think best fits an advanced level workout routine.
 		</p>
 		<Table>
 		    <thead>
@@ -19,49 +19,47 @@ function Arm() {
 		    </thead>
 		    <tbody>
 			<tr>
-			    <td>Lying Tricep Extension</td>
-			    <td>3</td>
-			    <td>8-10</td>
+			    <td>Standing Barbell Curl</td>
+			    <td>4</td>
+			    <td>8</td>
 			</tr>
 			<tr>
-			    <td>One Arm Dumbbell Extension</td>
-			    <td>3</td>
-			    <td>10</td>
+			    <td>Preacher Curls</td>
+			    <td>4</td>
+			    <td>8</td>
 			</tr>
 			<tr>
-			    <td>Tricep Extension</td>
-			    <td>3</td>
-			    <td>10</td>
+			    <td>Cable Curl</td>
+			    <td>4</td>
+			    <td>8</td>
 			</tr>
-		    </tbody>
-		</Table>
-		<Table>
-		    <thead>
-			<tr>
-			    <th>Exercise</th>
-			    <th>Sets</th>
-			    <th>Reps</th>
-			</tr>
-		    </thead>
-		    <tbody>
 			<tr>
 			    <td>Close Grip Bench Press</td>
 			    <td>4</td>
-			    <td>10-10-8-6</td>
+			    <td>6</td>
 			</tr>
 			<tr>
-			    <td>Lying Dumbbell Extension</td>
+			    <td>Skull Crushers</td>
 			    <td>3</td>
 			    <td>10</td>
 			</tr>
 			<tr>
 			    <td>Tricep Kickback</td>
 			    <td>3</td>
+			    <td>8-10</td>
+			</tr>
+			<tr>
+			    <td>Barbell Wrist Curl</td>
+			    <td>3</td>
 			    <td>10</td>
 			</tr>
+
 		    </tbody>
 		</Table>
+		
 	    </Row>
 	</section>
+	
     );
-} export default Arm;
+}
+export default Arm;
