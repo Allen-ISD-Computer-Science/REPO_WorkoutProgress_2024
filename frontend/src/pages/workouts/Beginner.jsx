@@ -3,6 +3,10 @@ import {useState} from 'react';
 import test_img from '../../images/pixelman_still.png'
 
 import Chest from '../../components/beginner/Chest.jsx';
+import Shoulder from '../../components/beginner/Shoulder.jsx';
+import Arm from '../../components/beginner/Arm.jsx';
+import Leg from '../../components/beginner/Leg.jsx';
+import Back from '../../components/beginner/Back.jsx';
 
 function Beginner_Workouts() {
 
@@ -21,7 +25,7 @@ function Beginner_Workouts() {
     // basically this function closes all other info's on workouts to avoid stacking the information
     
     return (	    
-	<section>	    
+	<section class="min-vh-100">	    
 	    <Row className="mb-5">		
 		<h1 class="display-1 text-center">Welcome new gym goer!</h1>
 		<p class="px-25 lead text-center">
@@ -29,7 +33,8 @@ function Beginner_Workouts() {
 		    - Beast Team 
 		</p>
 	    </Row>
-	    <Row className="h-30 mb-5 justify-contnent-around">
+
+	    <Row className="justify-contnent-around">
 		<Col className="w-33 text-center" onClick={() => toggle(0)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Chest Workouts</h3>
@@ -43,31 +48,34 @@ function Beginner_Workouts() {
 		    <h3>Leg Workouts</h3>
 		</Col>		
 	    </Row>
-	    <Row className="h-30 mb-5 justify-contnent-around">
+	    <Row className="mb-5 justify-contnent-around">
 		<Col className="text-center" onClick={() => toggle(3)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Back Workouts</h3>
 		</Col>
-		<Col className="text-center" onClick={() => toggle(2)}>
+		<Col className="text-center" onClick={() => toggle(4)}>
 		    <img class="img-fluid" src={test_img} alt="1"/>
 		    <h3>Arm Workouts</h3>
 		</Col>
 	    </Row>
-	    <div style={{display: states[0]}}>
-		<Chest />
-	    </div>
-	    <div style={{display: states[1]}}>
-		<p>shoulder</p>
-	    </div>
-	    <div style={{display: states[2]}}>
-		<p>leg</p>
-	    </div>
-	    <div style={{display: states[3]}}>
-		<p>back</p>
-	    </div>
-	    <div style={{display: states[4]}}>
-		<p>arm</p>
-	    </div>
+
+	    <Row>
+		<div style={{display: states[0]}}>
+		    <Chest />
+		</div>
+		<div style={{display: states[1]}}>
+		    <Shoulder />
+		</div>
+		<div style={{display: states[2]}}>
+		    <Leg />
+		</div>
+		<div style={{display: states[3]}}>
+		    <Back />
+		</div>
+		<div style={{display: states[4]}}>
+		    <Arm />
+		</div>
+	    </Row>
 	    
 	</section>
     );
