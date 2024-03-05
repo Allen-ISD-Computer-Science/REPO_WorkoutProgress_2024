@@ -12,7 +12,7 @@ import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
-import Quotes from './pages/Quotes';
+/* import Quotes from './pages/Quotes'; */
 
 import Supplements from './pages/Supplements';
 
@@ -24,7 +24,7 @@ import AdvancedDiets from './pages/diets/Advanced';
 import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
 import AdvancedWorkouts from './pages/workouts/Advanced';
->>>>>>> 376c6a5d17d1889647ad4b608314288627576930
+
 
 const router = createBrowserRouter([
     {
@@ -52,13 +52,13 @@ const router = createBrowserRouter([
 	element: <Equipment />
     },
     {
-	path: "/quotes",
+/*	path: "/quotes",
 	element: <Quotes />
-    }
+    },
+    { */
 	path: "/supplements",
 	element: <Supplements />
     },
-    
     {
 	path: "/workouts/beginner",
 	element: <BeginnerWorkouts />

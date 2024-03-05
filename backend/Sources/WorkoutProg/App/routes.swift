@@ -63,7 +63,7 @@ func routes(_ app: Application) throws {
         return try await renderIndex(req)
     }
 
->>>>>>> 376c6a5d17d1889647ad4b608314288627576930
+
     
     /// START CORE SITE ENDPOINTS
     
