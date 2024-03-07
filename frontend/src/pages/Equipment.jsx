@@ -30,7 +30,7 @@ function GridExample() {
             <Card.Body>
               <Card.Title><h1>Jump Rope</h1></Card.Title>
               <Card.Text>
-                This is where you can display information about a certain workout equipment.
+                  Jump Ropes are a great tool to improve cardiovascular health and strengthen the lower body's explosiveness. Jump ropes are a very simply and affordable option that can be used in any sort of an open space. Their effectiveness an versatility makes jump ropes a great option for all. 
               </Card.Text>
             </Card.Body>
           </Card>
@@ -43,7 +43,7 @@ function GridExample() {
             <Card.Body>
               <Card.Title><h1>Medicine Ball</h1></Card.Title>
               <Card.Text>
-                This is where you can display information about a certain workout equipment.
+                  Medicine Balls are a staple among many athletes due to their ability to improve coordination, balance, and strength. A wide range of exercises can be done using a medicine ball, and all almost always it will train an entire chain of muscles. Although medicine balls aren't the cheapest, their unparelled athletic benefits are a great investment towards an individuals physical well-being.
               </Card.Text>
             </Card.Body>
           </Card>
