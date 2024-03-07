@@ -64,4 +64,4 @@ function Shoulder()
 }
 
 
-export default Chest;
+export default Shoulder;
