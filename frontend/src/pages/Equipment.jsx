@@ -3,12 +3,33 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import test_image from '../images/pixelman_still.png';
 import Image from 'react-bootstrap/Image';
+import Nav from '../components/Navbar.jsx';
 
 function GridExample() {
+ const spacing = 2;
 
+    const hideMenu = () => {
+	// Add logic to hide the menu
+	console.log('Menu hidden');
+    };
 
+    const showMenu = () => {
+	// Add logic to show the menu
+	console.log('Menu shown');
+    };
+
+    const navLinkStyle = {
+	textDecoration: 'none',
+	color: 'white',
+	padding: '10px',
+	display: 'block',
+	textAlign: 'center',
+	fontWeight: 'bold'
+    };
     
     return (
+	<section>
+	    <Nav />
 	 <Row xs={1} md={2} className="">
       {Array.from({ length: 1 }).map((_, idx) => (
             <Col keyOD={idx} className=" justify-content-center">
@@ -78,7 +99,7 @@ function GridExample() {
 	    
 	 </Row>
 
-	
+	 </section> 
     );
     
 }

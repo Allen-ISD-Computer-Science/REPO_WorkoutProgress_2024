@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from '../components/Navbar.jsx';
 
-function Register() {
+function Login() {
   const spacing = 2;
 
   const [formData, setFormData] = useState({
@@ -178,10 +178,9 @@ function Register() {
             marginBottom: '20px',
           }}
         >
-          Welcome to Gym Starter: Bulk Like a Beast! Unleash your inner beast and reach your fitness goals. Lets get started!
-        </h1>
-      </div>
-
+            Welcome back to Gym Starter: Bulk Like a Beast! Ready to continue your fitness journey and achieve your goals? Let's get started!
+	</h1>
+	  </div>
       <div className="input-section" style={inputSectionStyles}>
         <label className="first">
           First Name
@@ -227,63 +226,6 @@ function Register() {
           onChange={handleInputChange}
           required
         />
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="fitness-level">
-          Fitness Level
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="fitnessLevel"
-          value={formData.fitnessLevel}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a fitness level</option>
-          <option value="Beginner">Beginner</option>
-          <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
-        </select>
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="fitness-goal">
-          Fitness Goal
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="fitnessGoal"
-          value={formData.fitnessGoal}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a fitness goal</option>
-          <option value="WeightLoss">Weight Loss</option>
-          <option value="MuscleBuilding">Muscle Building</option>
-        </select>
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="diets">
-          Diet
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="diet"
-          value={formData.diet}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a diet</option>
-          <option value="BalancedDiet">Balanced Diet</option>
-          <option value="CalorieControl">Calorie Control</option>
-          <option value="HighProtein">High Protein</option>
-          <option value="LowCarbDiet">Low Carb Diet</option>
-        </select>
         <br></br>
       </div>
 
@@ -339,4 +281,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Login;
