@@ -37,7 +37,7 @@ function Register() {
   };
 
   const inputSectionStyles = {
-    marginBottom: '20px', // Adjust this value based on your preference
+    marginBottom: '20px',
   };
 
   const handleInputChange = (e) => {
@@ -52,14 +52,12 @@ function Register() {
       setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to start your workouts!`);
       setModalOpen(true);
       setIsFormSuccess(true);
+      resetForm();
       // Optionally, perform form submission logic here
-       window.open("./workouts");
+      // window.open("./workouts");
     } else {
-      setModalMessage('Sorry, please make sure you have all forms filled out before you press Submit. Please try again!!');
       setModalOpen(true);
       setIsFormSuccess(false);
-      // Optionally, handle other actions for an invalid form
-      // window.open("./workouts");
     }
   };
 
@@ -67,18 +65,69 @@ function Register() {
     setModalOpen(false);
   };
 
+  const resetForm = () => {
+    setFormData({
+      firstName: '',
+      lastName: '',
+      email: '',
+      fitnessLevel: '',
+      fitnessGoal: '',
+      diet: '',
+      password: '',
+      verifyPassword: '',
+    });
+  };
+
   const validateForm = () => {
-    return (
-      formData.firstName !== '' &&
-      formData.lastName !== '' &&
-      formData.email !== '' &&
-      formData.fitnessLevel !== '' &&
-      formData.fitnessGoal !== '' &&
-      formData.diet !== '' &&
-      formData.password !== '' &&
-      formData.verifyPassword !== '' &&
-      formData.password === formData.verifyPassword
-    );
+    let valid = true;
+    let validationMessage = '';
+
+    if (!formData.firstName.trim()) {
+      valid = false;
+      validationMessage += 'First Name is required. ';
+    }
+
+    if (!formData.lastName.trim()) {
+      valid = false;
+      validationMessage += 'Last Name is required. ';
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email.trim())) {
+      valid = false;
+      validationMessage += 'Invalid Email format. ';
+    }
+
+    if (!formData.fitnessLevel.trim()) {
+      valid = false;
+      validationMessage += 'Fitness Level is required. ';
+    }
+
+    if (!formData.fitnessGoal.trim()) {
+      valid = false;
+      validationMessage += 'Fitness Goal is required. ';
+    }
+
+    if (!formData.diet.trim()) {
+      valid = false;
+      validationMessage += 'Diet is required. ';
+    }
+
+    if (formData.password.trim().length < 6) {
+      valid = false;
+      validationMessage += 'Password should be at least 6 characters. ';
+    }
+
+    if (formData.password !== formData.verifyPassword) {
+      valid = false;
+      validationMessage += 'Passwords do not match. ';
+    }
+
+    if (!valid) {
+      setModalMessage(validationMessage);
+    }
+
+    return valid;
   };
 
   const modalStyles = {
@@ -103,12 +152,14 @@ function Register() {
     ...modalStyles,
     backgroundColor: 'green',
     color: 'white',
+    fontWeight: 'bold',
   };
 
   const failureModalStyles = {
     ...modalStyles,
     backgroundColor: 'red',
     color: 'white',
+    fontWeight: 'bold',
   };
 
   return (
