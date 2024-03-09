@@ -38,6 +38,9 @@ func routes(_ app: Application) throws {
         return try await renderIndex(req)
     }
 
+    app.get("register") {req in
+        return try await renderIndex(req)
+    }
     app.get("supplements") {req in
         return try await renderIndex(req)
     }
