@@ -49,7 +49,7 @@ function Login() {
     e.preventDefault();
 
       if (validateForm()) {
-      setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to start your workouts!`);
+      setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to resume your workouts!`);
       setModalOpen(true);
       setIsFormSuccess(true);
       resetForm();
@@ -70,9 +70,6 @@ function Login() {
       firstName: '',
       lastName: '',
       email: '',
-      fitnessLevel: '',
-      fitnessGoal: '',
-      diet: '',
       password: '',
       verifyPassword: '',
     });
@@ -96,21 +93,6 @@ function Login() {
     if (!emailRegex.test(formData.email.trim())) {
       valid = false;
       validationMessage += 'Invalid Email format. ';
-    }
-
-    if (!formData.fitnessLevel.trim()) {
-      valid = false;
-      validationMessage += 'Fitness Level is required. ';
-    }
-
-    if (!formData.fitnessGoal.trim()) {
-      valid = false;
-      validationMessage += 'Fitness Goal is required. ';
-    }
-
-    if (!formData.diet.trim()) {
-      valid = false;
-      validationMessage += 'Diet is required. ';
     }
 
     if (formData.password.trim().length < 6) {
