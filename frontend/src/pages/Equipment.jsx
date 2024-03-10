@@ -5,6 +5,7 @@ import test_image from '../images/pixelman_still.png';
 import Nav from '../components/Navbar.jsx';
 
 function Equipment() {
+       
     return (
 	<section>
 	    <Nav />
