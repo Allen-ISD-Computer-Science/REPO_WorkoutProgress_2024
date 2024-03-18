@@ -2,13 +2,13 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import test_image from '../images/pixelman_still.png';
-import Image from 'react-bootstrap/Image';
+import Nav from '../components/Navbar.jsx';
 
 function GridExample() {
-
-
-    
     return (
+	<section>
+	    <Nav />
+	    <img src="https://i.pinimg.com/564x/1f/d4/39/1fd4398cb4eb02502234efa6667c28cf.jpg" />
 	 <Row xs={1} md={2} className="">
       {Array.from({ length: 1 }).map((_, idx) => (
             <Col keyOD={idx} className=" justify-content-center">
@@ -78,7 +78,7 @@ function GridExample() {
 	    
 	 </Row>
 
-	
+	 </section> 
     );
     
 }

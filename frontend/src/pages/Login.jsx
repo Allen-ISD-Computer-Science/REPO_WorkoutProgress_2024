@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from '../components/Navbar.jsx';
 
-function Register() {
+function Login() {
   const spacing = 2;
 
   const [formData, setFormData] = useState({
@@ -20,7 +20,7 @@ function Register() {
   const [isFormSuccess, setIsFormSuccess] = useState(false);
 
 
-  const inputSectionStyles = {
+    const inputSectionStyles = {
     marginBottom: '20px',
   };
 
@@ -33,7 +33,7 @@ function Register() {
     e.preventDefault();
 
       if (validateForm()) {
-      setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to start your workouts!`);
+      setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to resume your workouts!`);
       setModalOpen(true);
       setIsFormSuccess(true);
       resetForm();
@@ -54,9 +54,6 @@ function Register() {
       firstName: '',
       lastName: '',
       email: '',
-      fitnessLevel: '',
-      fitnessGoal: '',
-      diet: '',
       password: '',
       verifyPassword: '',
     });
@@ -80,21 +77,6 @@ function Register() {
     if (!emailRegex.test(formData.email.trim())) {
       valid = false;
       validationMessage += 'Invalid Email format. ';
-    }
-
-    if (!formData.fitnessLevel.trim()) {
-      valid = false;
-      validationMessage += 'Fitness Level is required. ';
-    }
-
-    if (!formData.fitnessGoal.trim()) {
-      valid = false;
-      validationMessage += 'Fitness Goal is required. ';
-    }
-
-    if (!formData.diet.trim()) {
-      valid = false;
-      validationMessage += 'Diet is required. ';
     }
 
     if (formData.password.trim().length < 6) {
@@ -162,11 +144,10 @@ function Register() {
             marginBottom: '20px',
           }}
         >
-          Welcome to Gym Starter: Bulk Like a Beast! Unleash your inner beast and reach your fitness goals. Lets get started!
-        </h1>
-	<img src="https://img.freepik.com/premium-vector/register-now-icon-flat-style-registration-vector-illustration-isolated-background-member-notification-sign-business-concept_157943-649.jpg?w=360" alt="React Image" />
-      </div>
-
+            Welcome back to Gym Starter: Bulk Like a Beast! Ready to continue your fitness journey and achieve your goals? Let's get started!
+	</h1>
+        <img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="React Image" />
+	  </div>
       <div className="input-section" style={inputSectionStyles}>
         <label className="first">
           First Name
@@ -212,63 +193,6 @@ function Register() {
           onChange={handleInputChange}
           required
         />
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="fitness-level">
-          Fitness Level
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="fitnessLevel"
-          value={formData.fitnessLevel}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a fitness level</option>
-          <option value="Beginner">Beginner</option>
-          <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
-        </select>
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="fitness-goal">
-          Fitness Goal
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="fitnessGoal"
-          value={formData.fitnessGoal}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a fitness goal</option>
-          <option value="WeightLoss">Weight Loss</option>
-          <option value="MuscleBuilding">Muscle Building</option>
-        </select>
-        <br></br>
-      </div>
-
-      <div className="input-section" style={inputSectionStyles}>
-        <label className="diets">
-          Diet
-          <span className="required-color">*</span>
-        </label>
-        <select
-          id="diet"
-          value={formData.diet}
-          onChange={handleInputChange}
-          required
-        >
-          <option value="">Select a diet</option>
-          <option value="BalancedDiet">Balanced Diet</option>
-          <option value="CalorieControl">Calorie Control</option>
-          <option value="HighProtein">High Protein</option>
-          <option value="LowCarbDiet">Low Carb Diet</option>
-        </select>
         <br></br>
       </div>
 
@@ -324,4 +248,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Login;

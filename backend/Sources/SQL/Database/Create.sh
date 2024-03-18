@@ -20,4 +20,3 @@ cat SelectDatabase.sql \
     \
     ../Tables/Users.sql \
     ../Tables/UserAuthentication.sql | mysql
-

@@ -1,4 +1,4 @@
-import { Row, Col, Button } from 'react-bootstrap';
+import {Col, Button } from 'react-bootstrap';
 
 import '../styles/frontpages.css'
 import waterBottle from '../images/bottle.png';
@@ -7,36 +7,16 @@ import Gatorade from '../images/Gatorade.png';
 import Nav from '../components/Navbar.jsx';
 
 function Diets() {
-    const spacing = 2;
-
-    const hideMenu = () => {
-	// Add logic to hide the menu
-	console.log('Menu hidden');
-    };
-
-    const showMenu = () => {
-	// Add logic to show the menu
-	console.log('Menu shown');
-    };
-
-    const navLinkStyle = {
-	textDecoration: 'none',
-	color: 'white',
-	padding: '10px',
-	display: 'block',
-	textAlign: 'center',
-	fontWeight: 'bold'
-    };
     return (
 	<section>
 	    <Nav />
 		<div className="text-box">
-		    <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', fontWeight: 'bold', textAlign: 'center', color: 'green', marginBottom: '20px' }}>
-		 	Diets Page
+		    <h1 className="mr-5 mb-5 text-center">
+			Diets Page
 		    </h1>
 		</div>	    
 	    <row>
-		    <levelcolumn>
+		    <Col>
 			<div className="imagebox">
 			    <img src={waterBottle} alt="2" class="workouts img-fluid"/>
 			</div>
@@ -47,9 +27,8 @@ function Diets() {
 			    foods to fuel your body
 			    and build growth
 			</h1>
-		    </levelcolumn>
-		    <levelcolumn>
-			
+		    </Col>
+		    <Col>			
 			<div className="imagebox">
 			    <img src={Gatorade} alt="2" class="workouts img-fluid" />
 			</div>
@@ -58,8 +37,8 @@ function Diets() {
 			<h1 className="subintL">
 			    Diets for skilled athletes that limit unhealthy additives, but do not compromise on flavor.
 			</h1>
-		    </levelcolumn>
-		    <levelcolumn>
+		    </Col>
+		    <Col>
 			<div className="imagebox">
 			    <img src={proteinShake} alt="2" class="workouts img-fluid"/>
 			</div>
@@ -67,8 +46,7 @@ function Diets() {
 			
 			<h1 className="subintL">
 			Diets for seasoned athletes, focus on specific nutrition groups for maximum performance.</h1>
-
-		    </levelcolumn>
+		    </Col>
 		</row>
 	</section>
 	
