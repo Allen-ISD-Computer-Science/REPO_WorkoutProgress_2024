@@ -12,7 +12,8 @@ a {
     text-decoration: none;
 }
 imagebox {
-/*    width: 30px; */
+    /*    width: 30px; */
+    height: 60px;
 }
 
 img {
