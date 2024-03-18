@@ -19,22 +19,6 @@ function Register() {
   const [modalMessage, setModalMessage] = useState('');
   const [isFormSuccess, setIsFormSuccess] = useState(false);
 
-  const hideMenu = () => {
-    console.log('Menu hidden');
-  };
-
-  const showMenu = () => {
-    console.log('Menu shown');
-  };
-
-  const navLinkStyle = {
-    textDecoration: 'none',
-    color: 'white',
-    padding: '10px',
-    display: 'block',
-    textAlign: 'center',
-    fontWeight: 'bold',
-  };
 
   const inputSectionStyles = {
     marginBottom: '20px',

@@ -1,7 +1,7 @@
 import {Row, Table} from 'react-bootstrap/';
 import '../../styles/workouts.css';
 import { useState } from 'react';
-
+import test_image from '../../images/pixelman_still.png';
 function Arm() {    
     
     const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none', 'none']); // values of indicies
@@ -17,12 +17,14 @@ function Arm() {
 		    The Arm
 		</h1>
 
+		<article>
 		<h4>Overview</h4>
-		<p>
-		    "You want to get big kid" - Sam Sulek
-		    The third most noticed muscle by many people has to be the Arms. Look at the man to the left, those arms are massive. While we
-		    don't encourage the need to get massive arms but we do encourage you to start making your arms look defined. 
-		</p>
+		    <p class>
+			"You want to get big kid" - Sam Sulek
+			The third most noticed muscle by many people has to be the Arms. Look at the man to the left, those arms are massive. While we
+			don't encourage the need to get massive arms but we do encourage you to start making your arms look defined.
+		    </p>
+		</article>
 		
 		<h4>Major Anatomy of your Arm</h4>
 		<h5>Biceps</h5>

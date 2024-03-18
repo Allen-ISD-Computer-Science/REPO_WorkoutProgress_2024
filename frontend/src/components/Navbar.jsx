@@ -1,4 +1,4 @@
- import React, { useState } from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,7 @@ import '../styles/frontpages.css';
 
 function NavbarComponent() {
     const [showModal, setShowModal] = useState(false);
-    const [isLoggedIn, setLoggedIn] = useState(false); // Update based on actual login status
+    const [isLoggedIn] = useState(false); // Update based on actual login status
 
     const handleWorkoutsClick = () => {
         if (!isLoggedIn) {
