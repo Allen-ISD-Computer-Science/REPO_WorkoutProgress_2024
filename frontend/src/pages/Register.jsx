@@ -164,6 +164,7 @@ function Register() {
         >
           Welcome to Gym Starter: Bulk Like a Beast! Unleash your inner beast and reach your fitness goals. Lets get started!
         </h1>
+	<img src="https://img.freepik.com/premium-vector/register-now-icon-flat-style-registration-vector-illustration-isolated-background-member-notification-sign-business-concept_157943-649.jpg?w=360" alt="React Image" />
       </div>
 
       <div className="input-section" style={inputSectionStyles}>

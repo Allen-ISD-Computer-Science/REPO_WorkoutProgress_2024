@@ -8,6 +8,7 @@ function GridExample() {
     return (
 	<section>
 	    <Nav />
+	    <img src="https://i.pinimg.com/564x/1f/d4/39/1fd4398cb4eb02502234efa6667c28cf.jpg" />
 	 <Row xs={1} md={2} className="">
       {Array.from({ length: 1 }).map((_, idx) => (
             <Col keyOD={idx} className=" justify-content-center">

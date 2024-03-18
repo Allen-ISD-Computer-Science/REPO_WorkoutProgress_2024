@@ -20,7 +20,7 @@ function Login() {
   const [isFormSuccess, setIsFormSuccess] = useState(false);
 
 
-  const inputSectionStyles = {
+    const inputSectionStyles = {
     marginBottom: '20px',
   };
 
@@ -146,6 +146,7 @@ function Login() {
         >
             Welcome back to Gym Starter: Bulk Like a Beast! Ready to continue your fitness journey and achieve your goals? Let's get started!
 	</h1>
+        <img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="React Image" />
 	  </div>
       <div className="input-section" style={inputSectionStyles}>
         <label className="first">
