@@ -1,24 +1,28 @@
 
 /* For all pages */
 
-@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+
+
 
 section { 
     background: lightgrey;
     overflow-x: hidden;
+}
+h2 {
 }
 
 a {
     text-decoration: none;
 }
 imagebox {
-/*    width: 30px; */
+    /*    width: 30px; */
+    width: 10px;
+    height: 10px;
 }
 
 img {
     padding: 0; /* Images have default padding which might cause scrolling errors */
-   /*  width: 30%;*/
-    height: 40px%;
 }
 
 .advanced-bg-color {
@@ -28,6 +32,11 @@ img {
 
 /* styles for workouts frontpage */
 
+.workouts_img {
+    width: 12rem;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
 .workouts_btn-style {
     font-size: 1.5rem;
     Border-radius: 0;
@@ -69,4 +78,3 @@ levelcolumn {
     width: 100%;
     align-items: center;
 }
-
