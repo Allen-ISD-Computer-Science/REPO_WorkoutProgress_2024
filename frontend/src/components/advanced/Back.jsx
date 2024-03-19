@@ -9,7 +9,7 @@ function Back()
 		    Thursday: Back
 		</h1>
 		<p class="text-center">
-		    Here is what we gathered that we think best fits a intermediate level workouts routine.
+		    Here is what we gathered that we think best fits an advanced level workout routine.
 		</p>
 		<Table>
 		    <thead>
@@ -30,17 +30,6 @@ function Back()
 			    <td>3</td>
 			    <td>10</td>
 			</tr>
-		    </tbody>
-		</Table>
-		<Table>
-		    <thead>
-			<tr>
-			    <th>Exercise</th>
-			    <th>Sets</th>
-			    <th>Reps</th>
-			</tr>
-		    </thead>
-		    <tbody>
 			<tr>
 			    <td>Bent Over Row</td>
 			    <td>3</td>
