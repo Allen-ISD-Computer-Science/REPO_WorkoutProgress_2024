@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 500px;
+    background: #625ac4;
+    width: 1800px;
+    border-radius: 75px;
+}
+
+.quote {
+    padding: 240px 440p;
+    color: red;
+    font-size: 64px;
+    text-align: center;
+}
+
+.line {
+    wdith: 1680px;
+    height: 15px;
+    background: white;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    algin-items: center;
+    margin: 30px 0px;
+}

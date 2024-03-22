@@ -24,7 +24,7 @@ import AdvancedDiets from './pages/diets/Advanced';
 import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
 import AdvancedWorkouts from './pages/workouts/Advanced';
->>>>>>> 376c6a5d17d1889647ad4b608314288627576930
+
 
 const router = createBrowserRouter([
     {
@@ -54,10 +54,11 @@ const router = createBrowserRouter([
     {
 	path: "/quotes",
 	element: <Quotes />
-    }
-	path: "/supplements",
-	element: <Supplements />
     },
+    {
+	path: "/supplements",
+    element: <Supplements />
+},
     
     {
 	path: "/workouts/beginner",
