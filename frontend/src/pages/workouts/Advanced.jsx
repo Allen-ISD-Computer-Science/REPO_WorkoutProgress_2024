@@ -7,7 +7,7 @@ import Chest from '../../components/advanced/Chest.jsx';
 import Arm from '../../components/advanced/Arm.jsx';
 import Back from '../../components/advanced/Back.jsx';
 import Shoulder from '../../components/advanced/Shoulder.jsx';
-// other workouts will go here: legs
+import Leg from '../../components/advanced/Leg.jsx';
 
 function Advanced() {
 
@@ -67,7 +67,7 @@ function Advanced() {
 		    <Shoulder />
 		</div>
 		<div style={{display: states[2]}}>
-		   
+		    <Leg />
 		</div>
 		<div style={{display: states[3]}}>
 		    <Back />
