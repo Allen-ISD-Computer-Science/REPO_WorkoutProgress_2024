@@ -2,15 +2,13 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import test_image from '../images/pixelman_still.png';
-import Image from 'react-bootstrap/Image';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Nav from '../components/Navbar.jsx';
 
 function GridExample() {
-
-
-const handleSelect = (eventKey) => alert(`selected ${eventKey}`);    
     return (
+	<section>
+	    <Nav />
+	    <img src="https://i.pinimg.com/564x/1f/d4/39/1fd4398cb4eb02502234efa6667c28cf.jpg" />
 	 <Row xs={1} md={2} className="">
 	     {Array.from({ length: 1 }).map((_, idx) => (
 		 
@@ -41,7 +39,7 @@ const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
             <Card.Body>
               <Card.Title><h1>Jump Rope</h1></Card.Title>
               <Card.Text>
-                This is where you can display information about a certain workout equipment.
+                  Jump Ropes are a great tool to improve cardiovascular health and strengthen the lower body's explosiveness. Jump ropes are a very simply and affordable option that can be used in any sort of an open space. Their effectiveness an versatility makes jump ropes a great option for all. 
               </Card.Text>
             </Card.Body>
           </Card>
@@ -54,7 +52,7 @@ const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
             <Card.Body>
               <Card.Title><h1>Medicine Ball</h1></Card.Title>
               <Card.Text>
-                This is where you can display information about a certain workout equipment.
+                  Medicine Balls are a staple among many athletes due to their ability to improve coordination, balance, and strength. A wide range of exercises can be done using a medicine ball, and all almost always it will train an entire chain of muscles. Although medicine balls aren't the cheapest, their unparelled athletic benefits are a great investment towards an individuals physical well-being.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -89,7 +87,7 @@ const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 	    
 	 </Row>
 
-	
+	 </section> 
     );
     
 }

@@ -12,25 +12,8 @@ function Welcome() {
 	    <h1 class="text-center">
 		Welcome to Gym Starter Bulk like a Beast!
 	    </h1>
-
-      {['Quote of the Day'].map((placement) => (
-        <OverlayTrigger
-          trigger="click"
-          key={placement}
-          placement={placement}
-          overlay={
-            <Popover id={`popover-positioned-${placement}`}>
-              <Popover.Header as="h3">{`${placement}`}</Popover.Header>
-              <Popover.Body>
-                <strong>This is where the quote of the day will generate.</strong>
-              </Popover.Body>
-            </Popover>
-          }
-        >
-          <Button variant="secondary">{placement}</Button>
-        </OverlayTrigger>
-      ))}	    
-		</section>
+	    <img src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/homepageimg.png" alt="React Image" />
+	</section>
     );
 }
 

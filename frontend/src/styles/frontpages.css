@@ -1,16 +1,26 @@
 
 /* For all pages */
 
-@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+
+
+
 
 section { 
     background: lightgrey;
     overflow-x: hidden;
 }
+h2 {
+}
 
 a {
     text-decoration: none;
 }
+imagebox {
+    /*    width: 30px; */
+    width: 10px;
+    height: 10px;
+}
+
 img {
     padding: 0; /* Images have default padding which might cause scrolling errors */
 }
@@ -22,6 +32,11 @@ img {
 
 /* styles for workouts frontpage */
 
+.workouts_img {
+    width: 12rem;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
 .workouts_btn-style {
     font-size: 1.5rem;
     Border-radius: 0;
@@ -31,11 +46,12 @@ img {
     border: .5rem solid black;
 }
 levelcolumn {
-    justify-content: center;
+/*    justify-content: left; */
     align-items: center;
-    flex-direction: column;
-    
-    
+   /* flex-direction: column;*/
+    width: 30%;
+    float: left;
+    padding: 3%;
 }
 
 .workouts_btn-style:hover{
@@ -44,15 +60,21 @@ levelcolumn {
     color: black;
 }
 .subintL {
-    flex-direction: column;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    
+    width: 100%;
+    background-color: rgba(10,150,50,0.06); /* Black w/opacity/see-through */
     color: rgb(44, 213, 174);
     font-weight: bold;
     border: 2px solid #f1f1f1;
     font-size: 15px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
-    width: 80%; 
+    
     padding: 10px;
     text-align: left;
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
 }

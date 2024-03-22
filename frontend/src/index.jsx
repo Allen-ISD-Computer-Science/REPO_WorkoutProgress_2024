@@ -12,8 +12,9 @@ import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
 import Equipment from './pages/Equipment';
-import Quotes from './pages/Quotes';
-
+/* import Quotes from './pages/Quotes'; */
+import Register from './pages/Register';
+import Login from './pages/Login';
 import Supplements from './pages/Supplements';
 
 // sub pages
@@ -52,16 +53,22 @@ const router = createBrowserRouter([
 	element: <Equipment />
     },
     {
-	path: "/quotes",
+/*	path: "/quotes",
 	element: <Quotes />
     },
-    {
+    { */
 	path: "/supplements",
-    element: <Supplements />
-},
-    
+	element: <Supplements />
+    },
     {
-	path: "/workouts/beginner",
+        path: "/register",
+        element: <Register />
+    },
+    {
+	path: "/login",
+	element: <Login />
+    },
+    {	path: "/workouts/beginner",
 	element: <BeginnerWorkouts />
     },
     {
