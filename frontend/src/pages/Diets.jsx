@@ -11,16 +11,16 @@ function Diets() {
 	<section>
 	    <Nav />
 		<div className="text-box">
-		    <h1 className="mr-5 mb-5 text-center">
+		    <tLabel className="mr-5 mb-5 text-center">
 			Diets Page
-		    </h1>
+		    </tLabel>
 		</div>	    
 	    <row>
 		    <Col>
 			<div className="imagebox">
 			    <img src={waterBottle} alt="2" class="workouts img-fluid"/>
 			</div>
-			<Button href="./beginner" className="workouts_btn-style">New</Button>
+			<Button href="https://muscleandfitness.com/nutrition/healthy-eating/ultimate-diet-plan-beginners/" className="workouts_btn-style">New</Button>
 			
 			<h1 className="subintL">
 			    Diets for is this working athletes,

@@ -9,7 +9,10 @@ section {
     background: lightgrey;
     overflow-x: hidden;
 }
-h2 {
+tLabel {
+    font-family: Candara;
+    font-size: 72px;
+    align-items: center;
 }
 
 a {
@@ -77,4 +80,8 @@ levelcolumn {
     justify-content: center;
     width: 100%;
     align-items: center;
+}
+.col {
+    width: 30%;
+    align-items: right;
 }
