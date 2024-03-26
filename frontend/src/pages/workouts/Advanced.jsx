@@ -6,8 +6,8 @@ import test_img from '../../images/pixelman_still.png'
 import Chest from '../../components/advanced/Chest.jsx';
 import Arm from '../../components/advanced/Arm.jsx';
 import Back from '../../components/advanced/Back.jsx';
-
-// other workouts will go below these; shoulders, legs
+import Shoulder from '../../components/advanced/Shoulder.jsx';
+import Leg from '../../components/advanced/Leg.jsx';
 
 function Advanced() {
 
@@ -64,10 +64,10 @@ function Advanced() {
 		    <Chest />
 		</div>
 		<div style={{display: states[1]}}>
-
+		    <Shoulder />
 		</div>
 		<div style={{display: states[2]}}>
-		    
+		    <Leg />
 		</div>
 		<div style={{display: states[3]}}>
 		    <Back />

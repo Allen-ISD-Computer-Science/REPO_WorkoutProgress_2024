@@ -1,10 +1,12 @@
 import Nav from '../components/Navbar.jsx';
-import {Row, Col} from 'react-bootstrap';
-import '../styles/frontpages.css';
-import jonsey from "../images/jonsey.jpg"
+import Button from 'react-bootstrap/Button';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover';
 
-function Welcome() {    
+function Welcome() {
+
     return (
+	    
 	<section>
 	    <Nav />
 	    <div class="d-flex h-100 vh-100 overflow-hidden">

@@ -70,9 +70,6 @@ func routes(_ app: Application) throws {
     app.get("workouts", "intermediate") {req in
         return try await renderIndex(req)
     }
-
-
-    
     /// START CORE SITE ENDPOINTS
     
     // Create protected route group which requires user auth. We will need this comment section
