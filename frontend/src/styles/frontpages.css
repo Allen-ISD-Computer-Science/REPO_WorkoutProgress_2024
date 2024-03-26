@@ -83,5 +83,6 @@ levelcolumn {
 }
 .col {
     width: 30%;
-    align-items: right;
+    float: left;
+    padding: 3%;
 }
