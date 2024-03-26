@@ -1,13 +1,24 @@
 import Nav from '../components/Navbar.jsx';
-function Welcome() {
-    
+import {Row, Col} from 'react-bootstrap';
+import '../styles/frontpages.css';
+import jonsey from "../images/jonsey.jpg"
+
+function Welcome() {    
     return (
 	<section>
 	    <Nav />
-	    <h1 class="text-center">
-		Welcome to Gym Starter Bulk like a Beast!
-	    </h1>
-	    <img src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/homepageimg.png" alt="React Image" />
+	    <div class="d-flex h-100 vh-100 overflow-hidden">
+		<Col className="">
+		    <h1>
+			Welcome to Gym Starter Bulk like a Beast!
+		    </h1>
+		</Col>		
+		<Col className="">
+		    <div class="d-flex h-90 welcome_image-1">
+			
+		    </div>
+		</Col>
+	    </div>
 	</section>
     );
 }
