@@ -9,7 +9,7 @@ function AboutUs() {
 		are just getting started or already in the fitness game, our mission is to assist you in
 		achieving your dream physique.
 	    </h1>
-	    <img src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/homepagebackground.png" alt="React Image" />
+	     <img src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/about_us.jpg" alt="React Image" />
 	</section>
     );
 }
