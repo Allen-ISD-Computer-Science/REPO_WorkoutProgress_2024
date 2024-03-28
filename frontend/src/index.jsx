@@ -24,6 +24,7 @@ import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
 import AdvancedWorkouts from './pages/workouts/Advanced';
 
+import WorkoutList from './pages/List';
 
 const router = createBrowserRouter([
     {
@@ -80,7 +81,11 @@ const router = createBrowserRouter([
     {
 	path: "/workouts/intermediate",
 	element: <IntermediateWorkouts />
-    },    
+    },
+    {
+	path: "/list",
+	element: <WorkoutList />
+    }
 ],
 {
 basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",

@@ -36,7 +36,8 @@ function NavbarComponent() {
                     <Nav.Link onClick={handleWorkoutsClick}>Workouts</Nav.Link>
                     <Nav.Link href="./register">Register</Nav.Link>
                     <Nav.Link href="./login">Login</Nav.Link>
-                </Container>
+		    <Nav.Link href="./list">List</Nav.Link>
+		</Container>
             </Navbar>
 
             <Modal show={showModal} onHide={handleModalClose}>
