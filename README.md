@@ -11,7 +11,7 @@ Through visual representation and thorough explanations, we aim to impact newcom
 | UI/UX Designer  | Kyle Hernandez  | [Kyle-Hernandez](https://github.com/kylesdev91/kylesdev91.github.io)                              | [Kyle's Portfolio](https://www.codermerlin.academy/users/kyle-hernandez/Digital%20Portfolio/index.html)                                                                                                       |
 | DBA             | Daniel Williams | [Daniel-Williams](https://github.com/DanielComputerScience)| [Daniel's Portfolio](https://www.codermerlin.academy/users/elijah-williams/Digital%20Portfolio/index.html)|
 
-No official website yet
+No official website yet<br>
 The page with the workout videos are here: https://codermerlin.academy/users/kyle-hernandez/gymstarter-bulklikeabeast/workout.html since the main page doesn't have the workout videos but has the workout names.
 
 # Developer's Info
