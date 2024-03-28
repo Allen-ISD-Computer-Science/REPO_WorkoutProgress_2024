@@ -5,6 +5,11 @@ section {
     background: lightgrey;
     overflow-x: hidden;
 }
+tLabel {
+    font-family: Candara;
+    font-size: 72px;
+    align-items: center;
+}
 
 a {
     text-decoration: none;
@@ -81,4 +86,9 @@ levelcolumn {
     justify-content: center;
     width: 100%;
     align-items: center;
+}
+.col {
+    width: 30%;
+    float: left;
+    padding: 3%;
 }

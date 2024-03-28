@@ -11,8 +11,6 @@ import Welcome from './pages/Welcome';
 import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
-import Equipment from './pages/Equipment';
-/* import Quotes from './pages/Quotes'; */
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Supplements from './pages/Supplements';
@@ -49,14 +47,6 @@ const router = createBrowserRouter([
 	element: <About />
     },
     {
-	path: "/equipment",
-	element: <Equipment />
-    },
-    {
-/*	path: "/quotes",
-	element: <Quotes />
-    },
-    { */
 	path: "/supplements",
 	element: <Supplements />
     },
