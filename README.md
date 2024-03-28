@@ -4,6 +4,8 @@ Through visual representation and thorough explanations, our vision is to create
 
 We believe that by providing clear visual guides and detailed explanations, newcomers will not only gain a better understanding of gym equipment but also develop a sense of mastery and ownership over their workout routines.
 
+The main website is published here: https://codermerlin.academy/vapor/kyle-hernandez/welcome/ The page with the workout videos are here: https://codermerlin.academy/users/kyle-hernandez/gymstarter-bulklikeabeast/workout.html since the main page doesn't have the workout videos but has the workout names.
+
 ## Roles
 | Role            | Name            | GitHub                                            | Web Portfolio                                                                                                         |
 |-----------------|-----------------|------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
