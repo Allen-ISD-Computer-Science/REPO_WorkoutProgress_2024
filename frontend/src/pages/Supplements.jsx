@@ -12,9 +12,9 @@ function Supplements() {
 	    
 	    <section>
 		<div className="text-box">
-		    <h1 className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', fontWeight: 'bold', textAlign: 'center', color: 'green', marginBottom: '20px' }}>
+		    <tLabel className="header-1" style={{ marginRight: spacing + 'em', fontFamily: 'Arial', fontWeight: 'bold', textAlign: 'center', color: 'green', marginBottom: '20px' }}>
 			Supplements Page
-		    </h1>
+		    </tLabel>
 		</div>
 
 		

@@ -11,8 +11,6 @@ import Welcome from './pages/Welcome';
 import Workouts from './pages/Workouts';
 import Diets from './pages/Diets';
 import About from './pages/AboutUs';
-
-/* import Quotes from './pages/Quotes'; */
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Supplements from './pages/Supplements';
@@ -26,6 +24,7 @@ import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
 import AdvancedWorkouts from './pages/workouts/Advanced';
 
+import WorkoutList from './pages/List';
 
 const router = createBrowserRouter([
     {
@@ -49,10 +48,6 @@ const router = createBrowserRouter([
 	element: <About />
     },
     {
-/*	path: "/quotes",
-	element: <Quotes />
-    },
-    { */
 	path: "/supplements",
 	element: <Supplements />
     },
@@ -86,7 +81,11 @@ const router = createBrowserRouter([
     {
 	path: "/workouts/intermediate",
 	element: <IntermediateWorkouts />
-    },    
+    },
+    {
+	path: "/list",
+	element: <WorkoutList />
+    }
 ],
 {
 basename: process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/` : "/",

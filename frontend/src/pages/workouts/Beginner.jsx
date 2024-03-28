@@ -1,7 +1,5 @@
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
-import test_img from '../../images/pixelman_still.png'
-
 import Chest from '../../components/beginner/Chest.jsx';
 import Shoulder from '../../components/beginner/Shoulder.jsx';
 import Arm from '../../components/beginner/Arm.jsx';
@@ -36,25 +34,25 @@ function Beginner_Workouts() {
 
 	    <Row className="justify-contnent-around">
 		<Col className="w-33 text-center" onClick={() => toggle(0)}>
-		    <img class="img-fluid" src={test_img} alt="1"/>
+		    <img class="img-fluid" src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nitrocut.com%2Fblogs%2Fblog%2F10-best-chest-workouts-you-shouldnt-miss&psig=AOvVaw1qSW0_ZB801PY81cmbcZB1&ust=1711511001429000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjX6ruBkYUDFQAAAAAdAAAAABAJ" alt="1"/>
 		    <h3>Chest Workouts</h3>
 		</Col>
 		<Col className="w-33 stack text-center" onClick={() => toggle(1)}>
-		    <img class="img-fluid" src={test_img} alt="1"/>
+		    <img class="img-fluid" src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.muscleandfitness.com%2Froutine%2Fworkouts%2Fshoulder-exercises%2Fultimate-workout-wider-stronger-shoulders%2F&psig=AOvVaw0K07t_xUNFV_er6Wtf6w5a&ust=1711511157805000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCJsoaCkYUDFQAAAAAdAAAAABAJ" alt="1"/>
 		    <h3>Shoulder Workouts</h3>
 		</Col>		    
 		<Col className="w-33 text-center" onClick={() => toggle(2)}>
-		    <img class="img-fluid" src={test_img} alt="1"/>
+		    <img class="img-fluid" src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsteelsupplements.com%2Fblogs%2Fsteel-blog%2Fthe-7-best-barbell-leg-exercises-for-strength&psig=AOvVaw3YDy4ha0qMkf7HEEERQKE_&ust=1711511103122000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiMpOyBkYUDFQAAAAAdAAAAABAV" alt="1"/>
 		    <h3>Leg Workouts</h3>
 		</Col>		
 	    </Row>
 	    <Row className="mb-5 justify-contnent-around">
 		<Col className="text-center" onClick={() => toggle(3)}>
-		    <img class="img-fluid" src={test_img} alt="1"/>
+		    <img class="img-fluid" src= "https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2017/10/1109-pullup-muscular-back.jpg?quality=86&strip=all" alt="1"/>
 		    <h3>Back Workouts</h3>
 		</Col>
 		<Col className="text-center" onClick={() => toggle(4)}>
-		    <img class="img-fluid" src={test_img} alt="1"/>
+		    <img class="img-fluid" src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsteelsupplements.com%2Fblogs%2Fsteel-blog%2Fthe-7-best-barbell-arm-exercises-for-strength-size&psig=AOvVaw2hSPG-qxEVYok08QNA-oPe&ust=1711511220235000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCakaSCkYUDFQAAAAAdAAAAABAo" alt="1"/>
 		    <h3>Arm Workouts</h3>
 		</Col>
 	    </Row>
