@@ -1,10 +1,6 @@
 
 /* For all pages */
 
-
-
-
-
 section { 
     background: lightgrey;
     overflow-x: hidden;
@@ -24,21 +20,28 @@ imagebox {
     height: 10px;
 }
 
-img {
-    padding: 0; /* Images have default padding which might cause scrolling errors */
-}
-
 .advanced-bg-color {
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);   
 }
+/*styles for welcome page */
+
 
 /* styles for workouts frontpage */
-
-.workouts_img {
-    width: 12rem;
-    height: 10rem;
-    margin-bottom: 3rem;
+#wrkts-img-1 {
+    background-image: url("../images/workouts_beginner.jpg");
+}
+#wrkts-img-2 {
+    background-image: url("../images/workouts_intermediate.png");
+}
+#wrkts-img-3 {
+    background-image: url("../images/workouts_advanced.png");
+}
+.wrkts-container {
+    height: 200vh;
+}
+.wrkts-lvl {  
+    background-size: 100% 100%;
 }
 .workouts_btn-style {
     font-size: 1.5rem;
@@ -56,8 +59,11 @@ levelcolumn {
     float: left;
     padding: 3%;
 }
+.workouts_btn-style {
+    float: right;
+}
 
-.workouts_btn-style:hover{
+.workouts_btn-style:hover{    
     background-color: transparent;
     border-color: black;
     color: black;
