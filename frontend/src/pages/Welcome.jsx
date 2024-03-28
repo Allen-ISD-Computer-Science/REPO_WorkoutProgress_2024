@@ -1,26 +1,26 @@
 import Nav from '../components/Navbar.jsx';
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Popover from 'react-bootstrap/Popover';
+import {Container, Col} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Welcome() {
 
     return (
-	    
-	<section>
-	    <Nav />
-	    <div class="d-flex h-100 vh-100 overflow-hidden">
-		<Col className="">
-		    <h1>
-			Welcome to Gym Starter Bulk like a Beast!
-		    </h1>
-		</Col>		
-		<Col className="">
-		    <div class="d-flex h-90 welcome_image-1">
-			
+	<section class="overflow-hidden m-0 p-0 vh-100 vw-100">	    	    	   
+	    <div class="welcome_bg w-100 h-100">
+		
+		<div class="welcome_animated-title  ml-5">
+		    <div class="text-top">
+			<div>
+			    <span class="welcome_font">welcome to</span>
+			    <span class="welcome_font">bulk like a beast</span>
+			</div>
 		    </div>
-		</Col>
-	    </div>
+		    <div class="text-bottom">
+			<div><a href="./about_us"><button class="welcome_font rounded border-dark border-5 bg-transparent">get started<FontAwesomeIcon  icon={faArrowRight} /></button></a></div>
+		    </div>
+		</div>
+	    </div>	    
 	</section>
     );
 }
