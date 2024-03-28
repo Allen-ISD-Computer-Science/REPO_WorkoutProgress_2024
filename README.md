@@ -1,5 +1,8 @@
 # Vision Statement
-Through visual representation and thorough explanations, we aim to impact newcomers to the gym, hopefully helping them gain confidence and familiarity with gym equipments.
+
+Through visual representation and thorough explanations, our vision is to create a welcoming and inclusive environment for newcomers to the gym. We understand that stepping into a gym for the first time can be intimidating, with unfamiliar equipment and routines causing uncertainty and anxiety. Therefore, our goal is to alleviate these concerns and empower individuals to embrace their fitness journey with confidence.
+
+We believe that by providing clear visual guides and detailed explanations, newcomers will not only gain a better understanding of gym equipment but also develop a sense of mastery and ownership over their workout routines.
 
 ## Roles
 | Role            | Name            | GitHub                                            | Web Portfolio                                                                                                         |
