@@ -1,5 +1,5 @@
 
-/* For all pages */
+/* For Diet pages */
 
 section { 
     background: lightgrey;
@@ -20,7 +20,7 @@ a {
 }
 
 img{
-    width: 10%;
+    heigt: 10%;
     padding: 20%;
 }
 
@@ -97,22 +97,8 @@ svg {
     font-style: normal;   
 }
 
-/* styles for workouts frontpage */
-#wrkts-img-1 {
-    
-}
-#wrkts-img-2 {
-    background-image: url("../images/workouts_intermediate.png");
-}
-#wrkts-img-3 {
-    background-image: url("../images/workouts_advanced.png");
-}
-.wrkts-container {
-    height: 200vh;
-}
-.wrkts-lvl {  
-    background-size: 100% 100%;
-}
+
+
 .workouts_btn-style {
     font-size: 1.5rem;
     Border-radius: 0;
@@ -129,14 +115,15 @@ levelcolumn {
     float: left;
     padding: 3%;
 }
-.workouts_btn-style {
-    float: right;
-}
+
 
 .workouts_btn-style:hover{    
     background-color: transparent;
     border-color: black;
     color: black;
+    padding: 3%;
+    float: center;
+    
 }
 .subintL {
     
