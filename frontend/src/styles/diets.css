@@ -1,0 +1,151 @@
+
+/* For Diet pages */
+
+section { 
+    background: lightgrey;
+    overflow-x: hidden;
+}
+tLabel {
+    font-family: Candara;
+    text-align: center;
+    font-size: 72px;
+    align-items: center;
+    color:rgb(141, 200, 214);
+    text-align: center;
+	  
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    heigt: 10%;
+    padding: 20%;
+}
+
+.advanced-bg-color {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);   
+}
+/*styles for welcome page */
+svg {
+    margin-left: 2rem;
+}
+.welcome_bg {
+    background-image: url("../images/welcome_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+.welcome_animated-title {
+    color: #222;
+    font-family: Roboto, Arial, sans-serif;
+    height: 90vmin;
+    position: absolute;
+    width: 90vmin;
+}
+.welcome_animated-title > div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.welcome_animated-title > div div {
+    font-size: 7rem;
+    padding: 2vmin 0;
+    position: absolute;
+}
+.welcome_animated-title > div div span {
+    display: block;
+}
+.welcome_animated-title > div.text-top {
+    border-bottom: 1vmin solid #000;
+    top: 0;
+}
+.welcome_animated-title > div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+.welcome_animated-title > div.text-top div span:first-child {
+}
+.welcome_animated-title > div.text-bottom {
+    bottom: 0;
+}
+.welcome_animated-title > div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+}
+.welcome_font {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 662;
+    font-style: normal;   
+}
+
+
+
+.workouts_btn-style {
+    font-size: 1.5rem;
+    Border-radius: 0;
+    background-color: transparent;
+    font-family: 'ArcadeClassic', sans-serif;
+    color: black;
+    border: .5rem solid black;
+}
+levelcolumn {
+    /*    justify-content: left; */
+    align-items: center;
+    /* flex-direction: column;*/
+    width: 30%;
+    float: left;
+    padding: 3%;
+}
+
+
+.workouts_btn-style:hover{    
+    background-color: transparent;
+    border-color: black;
+    color: black;
+    padding: 3%;
+    float: center;
+    
+}
+.subintL {
+    
+    width: 100%;
+    background-color: rgba(10,150,50,0.06); /* Black w/opacity/see-through */
+    color: rgb(44, 213, 174);
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    font-size: 30px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
+    
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.col {
+    width: 30%;
+    float: left;
+    padding: 3%;
+}

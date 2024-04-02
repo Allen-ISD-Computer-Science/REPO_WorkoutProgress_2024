@@ -6,17 +6,21 @@ section {
 }
 tLabel {
     font-family: Candara;
+    text-align: center;
     font-size: 72px;
     align-items: center;
+    color:rgb(141, 200, 214);
+    text-align: center;
+	  
 }
 
 a {
     text-decoration: none;
 }
-imagebox {
-    /*    width: 30px; */
-    width: 10px;
-    height: 10px;
+
+img{
+    width: 10%;
+    padding: 20%;
 }
 
 /* styles for workouts frontpage */
@@ -58,7 +62,7 @@ levelcolumn {
     color: rgb(44, 213, 174);
     font-weight: bold;
     border: 2px solid #f1f1f1;
-    font-size: 15px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
+    font-size: 30px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
     
     padding: 10px;
     text-align: left;
