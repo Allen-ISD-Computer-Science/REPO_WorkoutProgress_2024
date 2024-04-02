@@ -7,7 +7,7 @@ import Leg from '../../components/beginner/Leg.jsx';
 import Back from '../../components/beginner/Back.jsx';
 
 function Beginner_Workouts() {
-
+    // test plan is a list of descriptions you hand to people not in the groupa
     // usestate is an array with two values, the first is the current state at any iteration and the
     // second is the function that updates the state
     const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none']); // values of indicies
