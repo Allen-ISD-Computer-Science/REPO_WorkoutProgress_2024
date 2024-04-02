@@ -1,34 +1,40 @@
-/* For all pages */
-
 section { 
     background: lightgrey;
     overflow-x: hidden;
 }
 tLabel {
     font-family: Candara;
-    text-align: center;
-    font-size: 72px;
+    font-size: 120px;
+    font-weight: bold;
     align-items: center;
-    color:rgb(141, 200, 214);
-    text-align: center;
-	  
 }
-
 a {
     text-decoration: none;
 }
-
-img{
-    width: 10%;
-    padding: 20%;
+imagebox {
+    /*    width: 30px; */
+    width: 10px;
+    height: 10px;
+}
+img {
+    padding-left: 6%; /* Images have default padding which might cause scrolling errors */
+    padding-right:6%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 20%;
 }
 
+
+
+.advanced-bg-color {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);   
+}
 /* styles for workouts frontpage */
-.wrkts-container {
-    height: 200vh;
-}
-.wrkts-lvl {  
-    background-size: 100% 100%;
+.workouts_img {
+    width: 12rem;
+    height: 10rem;
+    margin-bottom: 3rem;
 }
 .workouts_btn-style {
     font-size: 1.5rem;
@@ -37,20 +43,20 @@ img{
     font-family: 'ArcadeClassic', sans-serif;
     color: black;
     border: .5rem solid black;
+    
+    
+
+    
 }
 levelcolumn {
-    /*    justify-content: left; */
+/*    justify-content: left; */
     align-items: center;
-    /* flex-direction: column;*/
+  /* flex-direction: column;*/
     width: 30%;
     float: left;
     padding: 3%;
 }
-.workouts_btn-style {
-    float: right;
-}
-
-.workouts_btn-style:hover{    
+.workouts_btn-style:hover{
     background-color: transparent;
     border-color: black;
     color: black;
@@ -64,7 +70,10 @@ levelcolumn {
     border: 2px solid #f1f1f1;
     font-size: 30px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
     
-    padding: 10px;
+/*    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;*/
     text-align: left;
     align-items: center;
 }
@@ -74,10 +83,17 @@ levelcolumn {
     width: 100%;
     align-items: center;
 }
+.rowL {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: left;
+    float: left;
+}
+
 .col {
     width: 30%;
+    align-items: right;
     float: left;
     padding: 3%;
 }
-
-

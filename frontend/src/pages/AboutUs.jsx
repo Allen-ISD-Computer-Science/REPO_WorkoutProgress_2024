@@ -1,28 +1,8 @@
 import React from "react";
 import Nav from '../components/Navbar.jsx';
-import { useState } from "react";
-import '../styles/aboutus.css';
-
-
-export default function AboutUs() {
-
-    const [modal, setModal] = useState(false);
-    const [data, setData] = useState({
-	name: "",
-	email: "",
-	feedback: "",
-    });
-
-    const handleChange = (e) => {
-	const { name, value } = e.target;
-
-	setData({ ...data, [name]: value });
-    };
-
-    const HandleSubmit = (e) => {
-	e.preventDefault();
-	console.log(data);
-    };
+import {Container, Col, Row} from 'react-bootstrap';
+function AboutUs() {
+    
     return (
 	<div className="App">
 	    <Nav />
