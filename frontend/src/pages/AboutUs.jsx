@@ -1,4 +1,5 @@
 import Nav from '../components/Navbar.jsx';
+import {Container, Col, Row} from 'react-bootstrap';
 function AboutUs() {
     
     return (

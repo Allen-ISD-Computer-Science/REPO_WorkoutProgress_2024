@@ -18,7 +18,7 @@ The page with the workout videos are here: https://codermerlin.academy/users/kyl
 
 ## Building and Running Site
 - enter the command `build` at the root of the project
-- enter the `backend/` folder and enter this command `source Template.env`
+- enter the `backend/` folder and enter this command `source Template.env` (solution to MISSING ENVIORMENT VARIABLE issue)
 - then just enter the command `run`
 
 ## Creating new pages
