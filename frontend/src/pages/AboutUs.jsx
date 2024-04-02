@@ -1,17 +1,63 @@
+import React from "react";
 import Nav from '../components/Navbar.jsx';
-function AboutUs() {
-    
+import { useState } from "react";
+import '../styles/aboutus.css';
+
+
+export default function AboutUs() {
+
+    const [modal, setModal] = useState(false);
+    const [data, setData] = useState({
+	name: "",
+	email: "",
+	feedback: "",
+    });
+
+    const handleChange = (e) => {
+	const { name, value } = e.target;
+
+	setData({ ...data, [name]: value });
+    };
+
+    const HandleSubmit = (e) => {
+	e.preventDefault();
+	console.log(data);
+    };
     return (
-	<section>
+	<div className="App">
 	    <Nav />
-	    <h1 class="text-center mx-5">
-		Here at Bulk-Like-A-Beast, we encourage all to start their fitness journey. Whether you
-		are just getting started or already in the fitness game, our mission is to assist you in
-		achieving your dream physique.
-	    </h1>
-	     <img src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/about_us.jpg" alt="React Image" />
-	</section>
+	    <h1 className="h1">Feedback Form</h1>
+
+	    {!modal && (
+		<button
+		    classname="btn btn-red close-btn"
+		    onClick={() => setModal((value) => !value)}>
+			     Toogle Feedback
+	    </button>
+	    )}
+	    <div>
+
+
+		{modal && (
+		    <form className="feedback" onSubmit={HandleSubmit}>
+			<button className="close-btn-form" onClick={() => setModal((value) => !value)}>X</button>
+			
+		    <div className="m1-rem">
+			<input placeholder="Name" name="name" onChange={(e) => handleChange(e)}  />
+		    </div>
+		    <div>
+			<input placeholder="Email" name="email" onChange={(e) => handleChange(e)} />
+		    </div>
+		    <div className="m1-rem">>
+			<input placeholder="Feedback" name="feedback" onChange={(e) => handleChange(e)} />
+		    </div>
+			
+			<button className="btn btn-green" onClick={HandleSubmit}>Submit Feedback</button>
+		
+		    </form>
+		)}
+	    </div>
+	</div>
     );
 }
 
-export default AboutUs;
