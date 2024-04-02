@@ -43,13 +43,15 @@ img {
     font-family: 'ArcadeClassic', sans-serif;
     color: black;
     border: .5rem solid black;
+    
+    
 
     
 }
 levelcolumn {
 /*    justify-content: left; */
     align-items: center;
-   /* flex-direction: column;*/
+  /* flex-direction: column;*/
     width: 30%;
     float: left;
     padding: 3%;
@@ -66,9 +68,12 @@ levelcolumn {
     color: rgb(44, 213, 174);
     font-weight: bold;
     border: 2px solid #f1f1f1;
-    font-size: 15px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
+    font-size: 30px;     /* position: absolute;      top: 50%;   left: 50%;   transform: translate(-50%, -50%);   z-index: 2; */
     
-    padding: 10px;
+/*    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;*/
     text-align: left;
     align-items: center;
 }

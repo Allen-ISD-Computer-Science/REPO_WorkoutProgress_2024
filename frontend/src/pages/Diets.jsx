@@ -10,25 +10,39 @@ function Diets() {
     return (
 	<section>
 	    <Nav />
-	    <div className="text-box">
-		
+	    
+	    <center>
 		<tLabel> Diets Page
+		    
 		</tLabel>
-	    </div>
+	    </center>
+	    
 	    
 	    <row>
 		
+		<center>
+		    <img src={waterBottle} alt="2" class="workouts img-fluid"/>
+		    <img src={Gatorade} alt="2" class="workouts img-fluid" />
+		    <img src={proteinShake} alt="2" class="workouts img-fluid"/>
+		</center>
+	    </row>
+	    <rowL>
 		
-		<img src={waterBottle} alt="2" class="workouts img-fluid"/>
-		<img src={Gatorade} alt="2" class="workouts img-fluid" />
-		<img src={proteinShake} alt="2" class="workouts img-fluid"/>
-	    </row>
+		<levelcolumn>
+		    <Button href="https://muscleandfitness.com/nutrition/healthy-eating/ultimate-diet-plan-beginners/" className="workouts_btn-style">New</Button>
+		    </levelcolumn>
+		<levelcolumn>
+		    <Button href="https://www.healthline.com/nutrition/eat-after-workout" className="workouts_btn-style">Intermediate</Button>
+		</levelcolumn>
+		<levelcolumn>
+		    <Button href="https://static.buffalostateathletics.com/custompages/Strength/STR-Athlete%20Basic%20Nutrition.pdf" className="workouts_btn-style">Pro</Button>
+		    </levelcolumn>
+		
+	    </rowL>
 	    <row>
-		<Button href="https://muscleandfitness.com/nutrition/healthy-eating/ultimate-diet-plan-beginners/" className="workouts_btn-style">New</Button>
-		<Button href="./intermediate" className="workouts_btn-style">Intermediate</Button>
-		<Button href="https://static.buffalostateathletics.com/custompages/Strength/STR-Athlete%20Basic%20Nutrition.pdf" className="workouts_btn-style">Pro</Button>
-	    </row>
+		</row>
 	    <row>
+		<center>
 		<Col>
 		    
 		    
@@ -62,7 +76,10 @@ function Diets() {
 			on specific nutrition groups for
 		    maximum performance.</h1>
 		</Col>
+		    </center>
 	    </row>
+
+	    <Button href="./supplements" className="workouts_btn-style">Supplements</Button>
 	</section>
 	
     );
