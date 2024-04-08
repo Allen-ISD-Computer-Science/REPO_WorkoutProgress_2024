@@ -1,3 +1,4 @@
+import React from "react";
 import Nav from '../components/Navbar.jsx';
 import {Row, Col} from 'react-bootstrap';
 import { motion, useScroll } from "framer-motion";
@@ -5,7 +6,7 @@ function AboutUs() {
     
     
     return (
-	<section>
+	<div className="App">
 	    <Nav />
 	    <h1>
 		Meet the TEAM
@@ -78,4 +79,3 @@ function AboutUs() {
     );
 }
 
-export default AboutUs;

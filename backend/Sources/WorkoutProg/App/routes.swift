@@ -51,7 +51,6 @@ func routes(_ app: Application) throws {
         return try await renderIndex(req)
     }
 
-
     // request url ...workouts/beginner, must use comma for such pages
     app.get("workouts", "beginner") {req in
         return try await renderIndex(req)
