@@ -1,10 +1,9 @@
 
-import { Row, Col, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import '../styles/supplements.css'
 import Nav from '../components/Navbar.jsx';
 
 function Supplements() {
-    const spacing = 2;
     return (
 	
 	

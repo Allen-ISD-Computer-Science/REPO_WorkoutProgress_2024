@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Stack, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import '../styles/frontpages.css';
 import Nav from '../components/Navbar.jsx';
 

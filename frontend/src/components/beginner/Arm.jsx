@@ -1,7 +1,6 @@
 import {Row, Table} from 'react-bootstrap/';
 import '../../styles/workouts.css';
 import { useState } from 'react';
-import test_image from '../../images/pixelman_still.png';
 function Arm() {    
     
     const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none', 'none']); // values of indicies

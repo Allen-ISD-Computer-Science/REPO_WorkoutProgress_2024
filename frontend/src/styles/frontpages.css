@@ -1,4 +1,13 @@
 /* For all pages */
+body {
+    --fs-sm: clamp(0.8rem, 0.12vi + 0.77rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.24vi + 0.95rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.43vi + 1.16rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 0.7vi + 1.41rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.1vi + 1.71rem, 2.81rem);
+    --fs-xxl: clamp(3.44rem, 2.67vi + 3.08rem, 4.75rem);
+    --fs-xxxl: clamp(5.05rem, 4.49vi + 4.51rem, 7rem);
+}
 
 section { 
     background: lightgrey;
@@ -11,18 +20,22 @@ tLabel {
     align-items: center;
     color:rgb(141, 200, 214);
     text-align: center;
-	  
+    
 }
 
 a {
     text-decoration: none;
 }
 
-img{
-    width: 10%;
-    padding: 20%;
-}
 
+/* about us page */
+.about_statement {
+    font-family: sans-serif;
+    font-size: var(--fs-xl);
+}
+.about_images {
+    width: 40rem;
+}
 /* styles for workouts frontpage */
 .wrkts-container {
     height: 200vh;
