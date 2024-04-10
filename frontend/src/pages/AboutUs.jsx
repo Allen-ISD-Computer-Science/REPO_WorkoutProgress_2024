@@ -29,7 +29,7 @@ function AboutUs() {
 		    <img
 			class="about_images"
 			alt="kyle"
-			src={"https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/main/img/about_us.jpg"}
+			src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.32.19%20AM.png?raw=true"}
 		    />
 		    <div>
 			<h1>Kyle The Beast</h1>
@@ -45,7 +45,7 @@ function AboutUs() {
 		    <img
 			class="about_images"
 			alt="myoram"
-			src={""}
+			src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/myoram.gif?raw=true"}
 		    />
 		    <div>
 			<h1>Myoram</h1>
@@ -63,7 +63,7 @@ function AboutUs() {
 		    <img
 			class="about_images"
 			alt="daniel"
-			src={""}
+			src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.24.24%20AM.png?raw=true"}
 		    />
 		    <div>
 			<h1>Daniel</h1>
@@ -79,7 +79,7 @@ function AboutUs() {
 			    <img
 				class="about_images"
 				alt="aarman"
-				src={""}
+				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.36.22%20AM.png?raw=true"}
 			    />
 			    <div>
 				<h1>Aarman</h1>
@@ -98,7 +98,7 @@ function AboutUs() {
 			    <img
 				class="about_images"
 				alt="theo"
-				src={""}
+				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.35.39%20AM.png?raw=true"}
 			    />
 			    <div>
 				<h1>Theo</h1>
@@ -116,7 +116,7 @@ function AboutUs() {
 			    <img
 				class="about_images"
 				alt="matt"
-				src={""}
+				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.27.46%20AM.png?raw=true"}
 			    />
 			    <div>
 				<h1>Matt</h1>
