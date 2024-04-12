@@ -98,7 +98,7 @@ function AboutUs() {
 			    <img
 				class="about_images"
 				alt="theo"
-				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.35.39%20AM.png?raw=true"}
+				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-12%20at%2010.24.05%20AM.png?raw=true"}
 			    />
 			    <div>
 				<h1>Theo</h1>
