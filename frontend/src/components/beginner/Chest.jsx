@@ -60,22 +60,38 @@ function Chest() {
 				<tr>
 				    <td onClick={() => toggle(0)}>Barbell Bench Press</td>
 				    <td>3-4</td>
-				    <td>10-12</td>			   
+				    <td>10-12</td>
+				    <video width="320" height="120" controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Barbell%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+	  </video>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(1)}>Incline Bench Press</td>			    
 				    <td>3-4</td>
 				    <td>10-15</td>			    
+				    <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Incline%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+	  </video>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(2)}>Decline Bench Press</td>
 				    <td>4-5</td>			    
-				    <td>10-15</td>			  			    
+				    <td>10-15</td>
+			  	     <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Decline%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+	  </video>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(3)}>Incline Dumbell Fly</td>
 				    <td>3</td>
 				    <td>10-15</td>
+				     <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Incline%20Dumbbell%20Fly.mp4" type="video/mp4">
+	      </source>
+	  </video>
 				</tr>
 			    </tbody>
 			</Table>
