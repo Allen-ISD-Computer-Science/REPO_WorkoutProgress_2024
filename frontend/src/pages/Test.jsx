@@ -18,7 +18,7 @@ function Test() {
             <Container fluid>
 		<center>
 		    <Image src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/development/frontend/src/images/BeastLogo.png"/>
-		    </center>
+		    </center> 
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
