@@ -53,8 +53,9 @@ function List () {
     
 
     return (
-	<div className="list">
+	<section>
 	    <Nav />
+	<div className="list">
 
 	    <h1>Workouts For The Day</h1>
 
@@ -95,8 +96,9 @@ function List () {
 		    )}
 		</ol>
 		
-	   </div>);
-
+	</div>
+	</section>
+    );
 }
 export default List
 
