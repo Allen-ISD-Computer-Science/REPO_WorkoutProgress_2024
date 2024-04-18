@@ -1,3 +1,4 @@
+import Nav from '../../components/NavbarSub.jsx';
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
 import Chest from '../../components/beginner/Chest.jsx';
@@ -23,7 +24,8 @@ function Beginner_Workouts() {
     // basically this function closes all other info's on workouts to avoid stacking the information
     
     return (	    
-	<section class="min-vh-100">	    
+	<section class="min-vh-100">
+	    <Nav />
 	    <Row className="mb-5">		
 		<h1 class="display-1 text-center">Welcome new gym goer!</h1>
 		<p class="px-25 lead text-center">
