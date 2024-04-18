@@ -24,21 +24,37 @@ function Back()
 			    <td>Seated Row</td>
 			    <td>4</td>
 			    <td>10</td>
+			    <video width="320" height="120" controls>
+				<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Seated%20Cable%20Row.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Bent Over Barbell Row</td>
 			    <td>3</td>
 			    <td>10</td>
+			       <video width="320" height="120" controls>
+			    <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Bent%20Over%20Barbell%20Row.mp4" type="video/mp4">
+			    </source>
+			    </video>
 			</tr>
 			<tr>
 			    <td>Bent Over Row</td>
 			    <td>3</td>
 			    <td>12</td>
+			     <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Bent%20Over%20Dumbbell%20Row%20Unilateral.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Smith Machine Upright Row</td>
 			    <td>3</td>
 			    <td>8-10</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Standing%20Smith%20Machine%20Upright%20Row.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 		    </tbody>
 		</Table>

@@ -24,31 +24,55 @@ function Shoulder()
 			    <td>Military Press</td>
 			    <td>4</td>
 			    <td>8-10</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Overhead%20Press.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Barbell Front Raise</td>
 			    <td>3</td>
 			    <td>10</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Barbell%20Front%20Raise.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Upright Row</td>
 			    <td>4</td>
 			    <td>8</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Barbell%20Upright%20Row.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Dumbbell Later Raise</td>
 			    <td>4</td>
 			    <td>8</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Dumbbell%20Lateral%20Raise.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Dumbbell Reverse Fly</td>
 			    <td>3</td>
 			    <td>10</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/master/Machine%20Reverse%20Fly.mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 			<tr>
 			    <td>Dumbbell Shoulder Press</td>
 			    <td>4</td>
 			    <td>8</td>
+			    <video width="320" height="120" controls>
+				<source src="https://github.com/kylesdev91/kylesdev91.github.io/raw/e8e25fbea08ffb670f9843fc88e1f651eb8dab66/Seated%20Dumbbell%20Press%20(Bilateral).mp4" type="video/mp4">
+				</source>
+				</video>
 			</tr>
 		    </tbody>
 
