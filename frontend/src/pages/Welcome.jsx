@@ -11,7 +11,7 @@ function Welcome() {
 		<div class="animated-title">
 		    <div class="text-top border-bottom border-dark mx-auto">
 			<div class="text-center">
-			    <span id="logo">bulk like a</span> <img src={beastLogo} />
+			    <span id="logo">bulk like a</span> <img style={{ width: 400, height: 275 }} src={beastLogo} />
 			</div>
 		    </div>
 		    <div class="text-bottom mx-auto">
