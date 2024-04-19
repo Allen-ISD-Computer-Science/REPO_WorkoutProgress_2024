@@ -46,6 +46,8 @@ function Shoulder() {
 			    <th>Exercise/Instructions</th>
 			    <th>Sets</th>
 			    <th>Reps</th>			    
+			    <th>Workout Videos</th>
+			    <th>Workout Description</th>
 			</tr>
 		    </thead>
 		    <tbody>
@@ -56,7 +58,9 @@ function Shoulder() {
 			    <video width="320" height="120"  controls>
 	       <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Dumbbell%20Lateral%20Raise.mp4" type="video/mp4">
 		   </source>
-	       </video>
+			    </video>
+			    <td>Load the machine, take a seat, position feet on the sled, lower weight, lower legs, return to starting position,
+			repeat for desired repetitions, ensuring proper control and safety.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Rear Delt Fly</td>			    
@@ -64,8 +68,11 @@ function Shoulder() {
 			    <td>12-15</td>			    
 			    <video width="320" height="120"  controls>
 		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Cable%20Rear%20Delt%20Fly.mp4" type="video/mp4">
-		    </source>
-		</video>
+		</source>
+				
+			    </video>
+			   <td>Position cables at chest height, attach handles, grab one with a neutral grip, pull handles laterally without excessive
+			shoulder blade squeezing, lower handles back to control, and repeat for desired repetitions.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Seated Dumbell Press</td>
@@ -74,7 +81,10 @@ function Shoulder() {
 			    <video width="320" height="120"  controls>
 	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Seated%20Dumbbell%20Press%20(Bilateral).mp4" type="video/mp4">
 	      </source>
-	  </video>
+			    </video>
+			    <td>Set up an adjustable angle bench, select the desired weight, pick up dumbbells, position them on knees, kick them
+			up, rotate palms, take a deep breath, press overhead, lower back to starting position, and repeat for desired
+			repetitions. Maintain a 90-degree angle and maintain proper limb lengths.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Upright Barbell Row</td>
@@ -83,7 +93,11 @@ function Shoulder() {
 			    <video width="320" height="120"  controls>
 				<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Barbell%20Upright%20Row.mp4" type="video/mp4">
 				    </source>
-				</video>
+			    </video>
+			    <td>The barbell upright row is a great exercise for building upper traps and shoulders. Load a barbell, grip it with
+			an overhand grip, and lift it up to chest height. Pause, then lower it back to the starting position. Repeat for
+			desired reps.
+</td>
 			</tr>
 		    </tbody>
 		</Table>
