@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Col } from 'react-bootstrap';
-import beastLogo from '../images/Logo.png';
+import beastLogo2 from '../images/BeastLogo2.png';
 import '../styles/welcome.css';
 function Welcome() {
 
@@ -11,7 +11,7 @@ function Welcome() {
 		<div class="animated-title">
 		    <div class="text-top border-bottom border-dark mx-auto">
 			<div class="text-center">
-			    <span id="logo">bulk like a</span> <img style={{ width: 400, height: 275 }} src={beastLogo} />
+			    <span id="logo">bulk like a</span> <img style={{ width: 625, height: 115 }} src={beastLogo2} />
 			</div>
 		    </div>
 		    <div class="text-bottom mx-auto">
