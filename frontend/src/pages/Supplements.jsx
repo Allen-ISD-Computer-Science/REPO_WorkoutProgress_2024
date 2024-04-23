@@ -40,17 +40,17 @@ function Supplements() {
 		<row>
 		    <levelcolumn>
 		    <h1 className="subintL">
-			Don't get too woried about supplements as a beginner, you can start out with  simple nature made daily vitamin, or vitamin c vitamins.
+			Don't get too woried about supplements as a beginner, you can start out with simple nature made daily vitamin, or vitamin c.
 		    </h1>
 			</levelcolumn>
 		    <levelcolumn>
 		    <h1 className="subintL">
-			Now at an intermediate level you can start doing more work into your nutrition. Based off of your diet and goals we can help you find supplements t your workout Journey.
+			Now at an intermediate level prioritizing good nutrition is essential if you wanna see better results in the weight room. Based off of your diet and goals we can help you find supplements to aid your workout journey.
 		    </h1>
 			</levelcolumn>
 		    <levelcolumn>
 		    <h1 className="subintL">
-			For pros, supplements are a important part of working out, to make sure you get the most efficiet nuutrints for your body.
+			For pros, supplements are what give the athlete an extra step ahead of their competition, and unsure that they are doing everything they can to become their best self.
 		    </h1>
 			</levelcolumn>
 
