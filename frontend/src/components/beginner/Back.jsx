@@ -51,6 +51,8 @@ function Back() {
 			    <th>Exercise/Instructions</th>
 			    <th>Sets</th>
 			    <th>Reps</th>			    
+			    <th>Workout Videos</th>
+			    <th>Workout Description</th>
 			</tr>
 		    </thead>
 		    <tbody>
@@ -58,21 +60,51 @@ function Back() {
 			    <td onClick={() => toggle(0)}>Behind Neck Lat Pull Downs</td>
 			    <td>3-4</td>
 			    <td>12-15</td>			   
+			      <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Behind%20the%20Neck%20Lat%20Pulldown%20Double%20Overhand.mp4" type="video/mp4">
+			 </source>
+			      </video>
+			    <td>To perform a lat pulldown, attach a wide grip handle to the machine, seated, and grip it with a pronated grip. Depress shoulder
+			blades, flex elbow, extend shoulder, pull handle behind neck, and repeat for desired repetitions.</td>
 			</tr>
 			<tr>
 		    <td onClick={() => toggle(1)}>Seated Cable Rows</td>			    
 			    <td>3-4</td>
-			    <td>12-15</td>			    
+			    <td>12-15</td>
+			     <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/How%20to%20Seated%20Cable%20Row%20with%20Hunter%20Labrada%20Exercise%20Guide.mp4" type="video/mp4">
+			 </source>
+			     </video>
+			    <td>Set a weight on a weight stack and attach a bar to a seated row machine. Grasp the bar neutrally, pull the weight up, pull the
+			handle into your stomach, squeeze, pause, and slowly lower the weight back to the starting position.To perform a lat pulldown,
+			attach a wide grip handle to the machine, seated, and grip it with a pronated grip. Depress shoulder blades, flex elbow,
+			extend shoulder, pull handle behind neck,
+			and repeat for desired repetitions.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Deadlifts</td>
 			    <td>4-5</td>			    
-			    <td>8-12</td>			  			    
+			    <td>8-12</td>
+			    <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Conventional%20Deadlift.mp4" type="video/mp4">
+			 </source>
+			    </video>
+			    <td>The conventional deadlift involves positioning the bar over shoelaces, assuming a hip width stance, pushing hips back and hinge
+			forward, grasping the bar with a shoulder width, inhaling, and pulling up slightly while allowing hips to drop in a seesaw fashion.
+			Positioning lats and pushing the floor away, the bar tracks in a straight line, and then reversing the movement. Repeat for
+			desired repetitions.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Cable Face Pull</td>
 			    <td>3</td>
 			    <td>15</td>
+			    <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Cable Face Pull.mp4" type="video/mp4">
+			 </source>
+			    </video>
+			    <td>Perform a split stance with pronated grip, inhale, and pull a rope towards your face, then slowly lower the
+			rope and repeat for desired repetitions.To perform a lat pulldown, attach a wide grip handle to the machine, seated, and grip it
+			with a pronated grip. Depress shoulder blades, flex elbow, extend shoulder, pull handle behind neck, and repeat for desired repetitions.</td>
 			</tr>
 		    </tbody>
 		</Table>

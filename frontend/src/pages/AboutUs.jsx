@@ -1,6 +1,7 @@
 import Nav from '../components/Navbar.jsx';
 import {Row, Col} from 'react-bootstrap';
 import { motion, useScroll } from "framer-motion";
+import '../styles/frontpages.css'
 function AboutUs() {
     
     
@@ -8,10 +9,11 @@ function AboutUs() {
 	<section>
 	    <Nav />
 
-	    <h1 class="text-center">
+	    <center>
+		<tLabel class="text-center">
 		Meet the TEAM
-	    </h1>
-	    
+	    </tLabel>
+	    </center>
 	    <Row>		
 		<Col className="">
 		    <h1 class="text-center">Our Goal</h1>
@@ -98,7 +100,7 @@ function AboutUs() {
 			    <img
 				class="about_images"
 				alt="theo"
-				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-10%2010.35.39%20AM.png?raw=true"}
+				src={"https://github.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/blob/development/frontend/src/images/Screenshot%202024-04-12%20at%2010.24.05%20AM.png?raw=true"}
 			    />
 			    <div>
 				<h1>Theo</h1>

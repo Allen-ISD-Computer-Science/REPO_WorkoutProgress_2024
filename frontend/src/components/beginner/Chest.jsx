@@ -54,28 +54,56 @@ function Chest() {
 				    <th>Exercise</th>
 				    <th>Sets</th>
 				    <th>Reps</th>			    
+				    <th>Workout Videos</th>
+				    <th>Workout Description</th>
 				</tr>
 			    </thead>
 			    <tbody>
 				<tr>
 				    <td onClick={() => toggle(0)}>Barbell Bench Press</td>
 				    <td>3-4</td>
-				    <td>10-12</td>			   
+				    <td>10-12</td>
+				    <video width="320" height="120" controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Barbell%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+				    </video>
+				    <td>Lie flat on bench, hands just outside shoulder width. Set shoulder blades by pinching them together and driving
+				into bench. Use spotter for lift off. Inhale and slowly lower bar to base of sternum, touching chest. Push bar
+				back up in straight line by pressing into bench, driving feet into floor, and extending elbows. Repeat for desired reps.</td>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(1)}>Incline Bench Press</td>			    
 				    <td>3-4</td>
 				    <td>10-15</td>			    
+				    <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Incline%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+				    </video>
+				    <td>Lie on incline bench, hands outside shoulder width. Pinch shoulder blades, maintain upper back tightness. Use a
+				spotter for lift-off. Lower the bar to chest in a straight line. Push back up, engaging legs and extending elbows. Repeat as needed.</td>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(2)}>Decline Bench Press</td>
 				    <td>4-5</td>			    
-				    <td>10-15</td>			  			    
+				    <td>10-15</td>
+			  	     <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Decline%20Bench%20Press.mp4" type="video/mp4">
+	      </source>
+				     </video>
+				    <td>Lie on a decline bench with hands just outside shoulder width, feet hooked underneath. Pinch shoulder blades together,
+				breathe, and get a spotter's lift off. Lower the bar to chest, then press it straight up. Repeat as needed.</td>
 				</tr>
 				<tr>
 				    <td onClick={() => toggle(3)}>Incline Dumbell Fly</td>
 				    <td>3</td>
 				    <td>10-15</td>
+				     <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Incline%20Dumbbell%20Fly.mp4" type="video/mp4">
+	      </source>
+				     </video>
+				    <td>Perform incline dumbbell flys by picking up the dumbbells with a neutral grip, sitting on an incline bench, and lying
+				back while keeping the weights close to your chest. After pressing the dumbbells to the top lower to shoulder blades.
+				Repeat until your set is done.</td>
 				</tr>
 			    </tbody>
 			</Table>

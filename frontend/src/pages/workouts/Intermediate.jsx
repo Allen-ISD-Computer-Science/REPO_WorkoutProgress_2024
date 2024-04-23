@@ -29,7 +29,7 @@ function Intermediate() {
 	
 	<section>
 	    <Nav />
-	    <h1 className="intermediate">Intermediate Level</h1>
+	    <h1 className="display-1 text-center">Intermediate Level</h1>
 	    
 	    <br />
 	    <br />
