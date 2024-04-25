@@ -1,13 +1,12 @@
-import Nav from '../components/Navbar.jsx';
+import Nav from '../components/Navbar_test.jsx';
 import {Row, Col} from 'react-bootstrap';
 import { motion, useScroll } from "framer-motion";
 function AboutUs() {
-    
-    
+        
     return (
 	<section>
 	    <Nav />
-
+	    
 	    <h1 class="text-center">
 		Meet the TEAM
 	    </h1>
