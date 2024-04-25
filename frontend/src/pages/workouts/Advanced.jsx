@@ -23,7 +23,7 @@ function Advanced() {
 	
 	<section>
 	    <Nav />
-	    <h1 className="advanced">Advanced Level</h1>
+	    <h1 className="dispaly-1 text-center">Advanced Level</h1>
 	    
 	    <br />
 	    <br />
