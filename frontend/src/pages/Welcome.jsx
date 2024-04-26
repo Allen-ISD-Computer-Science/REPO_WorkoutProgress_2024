@@ -1,4 +1,3 @@
-import Nav from '../components/Navbar.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Col } from 'react-bootstrap';

@@ -53,21 +53,37 @@ function Shoulder() {
 			    <td onClick={() => toggle(0)}>Dumbell Lateral Raises</td>
 			    <td>3-4</td>
 			    <td>12-15</td>			   
+			    <video width="320" height="120"  controls>
+	       <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Dumbbell%20Lateral%20Raise.mp4" type="video/mp4">
+		   </source>
+	       </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Rear Delt Fly</td>			    
 			    <td>3-4</td>
 			    <td>12-15</td>			    
+			    <video width="320" height="120"  controls>
+		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Cable%20Rear%20Delt%20Fly.mp4" type="video/mp4">
+		    </source>
+		</video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Seated Dumbell Press</td>
 			    <td>4-5</td>			    
 			    <td>10-15</td>			  			    
+			    <video width="320" height="120"  controls>
+	  <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Seated%20Dumbbell%20Press%20(Bilateral).mp4" type="video/mp4">
+	      </source>
+	  </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Upright Barbell Row</td>
 			    <td>3-4</td>
 			    <td>10-12</td>
+			    <video width="320" height="120"  controls>
+				<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Barbell%20Upright%20Row.mp4" type="video/mp4">
+				    </source>
+				</video>
 			</tr>
 		    </tbody>
 		</Table>

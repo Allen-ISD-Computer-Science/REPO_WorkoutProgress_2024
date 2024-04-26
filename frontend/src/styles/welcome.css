@@ -29,7 +29,6 @@ a {
     font-size: var(--fs-xxxl);
 }
 #get-started {
-    font-size: var(--fs-md);
     font-family: sans-serif;
     border: .2rem solid black;
 }

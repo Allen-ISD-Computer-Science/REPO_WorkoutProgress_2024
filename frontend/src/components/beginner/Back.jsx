@@ -58,21 +58,37 @@ function Back() {
 			    <td onClick={() => toggle(0)}>Behind Neck Lat Pull Downs</td>
 			    <td>3-4</td>
 			    <td>12-15</td>			   
+			      <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Behind%20the%20Neck%20Lat%20Pulldown%20Double%20Overhand.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 		    <td onClick={() => toggle(1)}>Seated Cable Rows</td>			    
 			    <td>3-4</td>
-			    <td>12-15</td>			    
+			    <td>12-15</td>
+			     <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/How%20to%20Seated%20Cable%20Row%20with%20Hunter%20Labrada%20Exercise%20Guide.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Deadlifts</td>
 			    <td>4-5</td>			    
-			    <td>8-12</td>			  			    
+			    <td>8-12</td>
+			    <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Conventional%20Deadlift.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Cable Face Pull</td>
 			    <td>3</td>
 			    <td>15</td>
+			    <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Cable Face Pull.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 		    </tbody>
 		</Table>

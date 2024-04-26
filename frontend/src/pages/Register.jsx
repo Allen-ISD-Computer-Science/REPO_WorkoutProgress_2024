@@ -19,7 +19,6 @@ function Register() {
   const [modalMessage, setModalMessage] = useState('');
   const [isFormSuccess, setIsFormSuccess] = useState(false);
 
-
   const inputSectionStyles = {
     marginBottom: '20px',
   };
@@ -32,13 +31,13 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-      if (validateForm()) {
+    if (validateForm()) {
       setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to start your workouts!`);
       setModalOpen(true);
       setIsFormSuccess(true);
       resetForm();
       // Optionally, perform form submission logic here
-       window.open("./workouts");
+      window.open("./workouts");
     } else {
       setModalOpen(true);
       setIsFormSuccess(false);
@@ -130,6 +129,12 @@ function Register() {
 
   const buttonStyles = {
     marginTop: '10px',
+    backgroundColor: 'blue', // Style the button to be blue
+    color: 'white',
+    border: 'none',
+    padding: '10px 20px',
+    cursor: 'pointer',
+    borderRadius: '5px',
   };
 
   const successModalStyles = {
@@ -164,7 +169,7 @@ function Register() {
         >
           Welcome to Gym Starter: Bulk Like a Beast! Unleash your inner beast and reach your fitness goals. Lets get started!
         </h1>
-	<img src="https://img.freepik.com/premium-vector/register-now-icon-flat-style-registration-vector-illustration-isolated-background-member-notification-sign-business-concept_157943-649.jpg?w=360" alt="React Image" />
+        <img src="https://img.freepik.com/premium-vector/register-now-icon-flat-style-registration-vector-illustration-isolated-background-member-notification-sign-business-concept_157943-649.jpg?w=360" alt="React Image" />
       </div>
 
       <div className="input-section" style={inputSectionStyles}>
@@ -305,7 +310,7 @@ function Register() {
       </div>
 
       <div className="input-section">
-        <button type="submit" onClick={handleSubmit}>
+        <button type="submit" style={buttonStyles} onClick={handleSubmit}>
           Submit
         </button>
       </div>

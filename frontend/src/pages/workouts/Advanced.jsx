@@ -1,8 +1,6 @@
-
 import Nav from '../../components/NavbarSub.jsx';
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
-import test_img from '../../images/pixelman_still.png'
 
 import Chest from '../../components/advanced/Chest.jsx';
 import Arm from '../../components/advanced/Arm.jsx';

@@ -17,7 +17,7 @@ function Test() {
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
             <Container fluid>
 		<center>
-		    <Image src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/development/frontend/src/images/BeastLogo.png"/>
+		    <Image src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/development/frontend/src/images/Logo.png"/>
 		    </center> 
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -27,7 +27,7 @@ function Test() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  <Image src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/development/frontend/src/images/BeastLogo.png" />
+                  <Image src="https://raw.githubusercontent.com/Allen-ISD-Computer-Science/REPO_WorkoutProgress_2024/development/frontend/src/images/Logo.png" />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

@@ -18,18 +18,18 @@ function Supplements() {
 		
 <row>
 		    <levelcolumn>
-		    	<Button href="./beginner" className="workouts_btn-style">New</Button>
+		    	<Button href="https://www.muscleandfitness.com/supplements/build-muscle/your-first-supplement-stack-2/" className="workouts_btn-style">New</Button>
 		    </levelcolumn>
 		    
 		    		    
 		    <levelcolumn>
 			
-		    	<Button href="./intermediate" className="workouts_btn-style">Intermediate</Button>
+		    	<Button href="https://interplexus.com/" className="workouts_btn-style">Intermediate</Button>
 		    </levelcolumn>
 		    
 		    		    
 		    <levelcolumn>
-		    	<Button href="./advanced" className="workouts_btn-style">Pro</Button>
+		    	<Button href="https://docs.google.com/document/d/1IQogYW-MvzKp0_eiOtFoXk1oMHRJDIsehw7y377Laww/edit" className="workouts_btn-style">Pro</Button>
 		    </levelcolumn>
 		    
 		    

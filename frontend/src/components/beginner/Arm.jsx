@@ -1,7 +1,6 @@
 import {Row, Table} from 'react-bootstrap/';
 import '../../styles/workouts.css';
 import { useState } from 'react';
-import test_image from '../../images/pixelman_still.png';
 function Arm() {    
     
     const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none', 'none']); // values of indicies
@@ -57,32 +56,57 @@ function Arm() {
 			<tr>
 			    <td onClick={() => toggle(0)}>Tricep Cable Pushdown</td>
 			    <td>3-4</td>
-			    <td>12-15</td>			   
+			    <td>12-15</td>
+			      <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Straight%20Bar%20Tricep%20Extension.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Alternating Dumbell Curls</td>			    
 			    <td>3-4</td>
 			    <td>12-15</td>			    
+			    <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Alternating%20Dumbbell%20Curl.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Barbell Curl</td>
 			    <td>4-5</td>			    
 			    <td>10-15</td>			  			    
+<video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20to%20Do%20a%20Barbell%20Curl%20%7C%20Female%20Bodybuilding.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Seated Overhead Cable Tricep Extension</td>
 			    <td>3-4</td>
 			    <td>12-15</td>
+			      <video width="320" height="120" controls>
+		       <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20To_%20Steated%20Tricep%20Overhead%20Cable%20Extensions.mp4" type="video/mp4">
+			   </source>
+		       </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(4)}>Wrist Curls</td>
 			    <td>3</td>
 			    <td>15</td>
+			       <video width="320" height="120" controls>
+		       <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Palms-Up%20Barbell%20Wrist%20Curl%20Over%20A%20Bench%20-%20Forearms%20Exercise.mp4" type="video/mp4">
+			   </source>
+		       </video>
+				   
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(5)}>Reverse Wrist Curls</td>
 			    <td>3</td>
 			    <td>15</td>
+			     <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20To_%20Reverse%20Seated%20Wrist%20Curl.mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 		    </tbody>
 		</Table>

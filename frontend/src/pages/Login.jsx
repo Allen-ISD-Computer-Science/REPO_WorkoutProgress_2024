@@ -8,9 +8,6 @@ function Login() {
     firstName: '',
     lastName: '',
     email: '',
-    fitnessLevel: '',
-    fitnessGoal: '',
-    diet: '',
     password: '',
     verifyPassword: '',
   });
@@ -19,8 +16,7 @@ function Login() {
   const [modalMessage, setModalMessage] = useState('');
   const [isFormSuccess, setIsFormSuccess] = useState(false);
 
-
-    const inputSectionStyles = {
+  const inputSectionStyles = {
     marginBottom: '20px',
   };
 
@@ -32,13 +28,13 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-      if (validateForm()) {
-      setModalMessage(`Welcome: ${formData.firstName} ${formData.lastName}, you are ready to resume your workouts!`);
+    if (validateForm()) {
+      setModalMessage(`Welcome back, ${formData.firstName}! Ready to continue your fitness journey and achieve your goals? Let's get started!`);
       setModalOpen(true);
       setIsFormSuccess(true);
       resetForm();
       // Optionally, perform form submission logic here
-       window.open("./workouts");
+      window.open("./workouts");
     } else {
       setModalOpen(true);
       setIsFormSuccess(false);
@@ -112,6 +108,12 @@ function Login() {
 
   const buttonStyles = {
     marginTop: '10px',
+    backgroundColor: 'blue', // Style the button to be blue
+    color: 'white',
+    border: 'none',
+    padding: '10px 20px',
+    cursor: 'pointer',
+    borderRadius: '5px',
   };
 
   const successModalStyles = {
@@ -144,10 +146,11 @@ function Login() {
             marginBottom: '20px',
           }}
         >
-            Welcome back to Gym Starter: Bulk Like a Beast! Ready to continue your fitness journey and achieve your goals? Let's get started!
-	</h1>
+          Welcome back to Gym Starter: Bulk Like a Beast! Ready to continue your fitness journey and achieve your goals? Let's get started!
+        </h1>
         <img src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="React Image" />
-	  </div>
+      </div>
+
       <div className="input-section" style={inputSectionStyles}>
         <label className="first">
           First Name
@@ -229,7 +232,7 @@ function Login() {
       </div>
 
       <div className="input-section">
-        <button type="submit" onClick={handleSubmit}>
+        <button type="submit" style={buttonStyles} onClick={handleSubmit}>
           Submit
         </button>
       </div>

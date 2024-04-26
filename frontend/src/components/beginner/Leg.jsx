@@ -55,7 +55,8 @@ function Leg() {
 			<tr>
 			    <th>Exercise/Instructions</th>
 			    <th>Sets</th>
-			    <th>Reps</th>			    
+			    <th>Reps</th>
+			    
 			</tr>
 		    </thead>
 		    <tbody>
@@ -63,21 +64,38 @@ function Leg() {
 			    <td onClick={() => toggle(0)}>Leg press</td>
 			    <td>5</td>
 			    <td>10-15</td>			   
+			    
+			    <video width="320" height="120"  controls>
+		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Leg%20Press.mp4" type="video/mp4">
+		    </source>
+		</video>   
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Machine Hack Squat </td>			    
 			    <td>3-5</td>
 			    <td>10-15</td>			    
+			      <video width="320" height="120"  controls>
+		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Machine%20Hack%20Squat.mp4" type="video/mp4">
+		    </source>
+		</video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Lying Leg Curls</td>
 			    <td>3</td>			    
 			    <td>12-15</td>			  			    
+			      <video width="320" height="120" controls>
+		   <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/How%20To%20Do%20A%20Lying%20Leg%20Curl%20(Prone%20Leg%20Curl).mp4" type="video/mp4">
+		       </source>
+		   </video>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Seated Calf Raises</td>
 			    <td>4-5</td>
 			    <td>15-20</td>
+			       <video width="320" height="120" controls>
+		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Seated%20Calf%20Raise%20(Toes%20Neutral).mp4" type="video/mp4">
+			 </source>
+		     </video>
 			</tr>
 		    </tbody>
 		</Table>
