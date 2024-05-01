@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from '../components/Navbar_test.jsx';
+import Nav from '../components/Navbar.jsx';
 
 function Login() {
   const spacing = 2;
