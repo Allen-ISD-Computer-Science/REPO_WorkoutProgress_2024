@@ -28,10 +28,8 @@ function NavbarComponent() {
     return (
         <>
             <Navbar className="align-self-center bg-primary">
-                <Navbar.Brand className="text-white ">Bulk Like A Beast</Navbar.Brand>
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
-                <Container className="d-flex justify-content-between text-white display-6">
+		<img src="favicon.ico" />
+		<Container className="d-flex justify-content-between text-white display-6">
                     <Nav.Link href="./welcome">Welcome</Nav.Link>
                     <Nav.Link href="./about_us">About Us</Nav.Link>
                     <Nav.Link href="./diets">Diets</Nav.Link>

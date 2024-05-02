@@ -1,4 +1,4 @@
-import Nav from '../../components/NavbarSub.jsx';
+import Nav from '../../components/Navbar.jsx';
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
 import Chest from '../../components/beginner/Chest.jsx';
