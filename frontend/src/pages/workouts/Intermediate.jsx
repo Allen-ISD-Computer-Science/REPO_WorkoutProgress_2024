@@ -1,4 +1,4 @@
-import Nav from '../../components/NavbarSub.jsx';
+import Nav from '../../components/Navbar.jsx';
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
 
@@ -9,7 +9,6 @@ import Back from '../../components/intermediate/Back.jsx';
 import Arm from '../../components/intermediate/Arm.jsx';
 
 function Intermediate() {
-
     // usestate is an array with two values, the first is the current state at any iteration and the
     // second is the function that updates the state
     const [states, setStates] = useState(['none', 'none', 'none', 'none', 'none']); // values of indicies
