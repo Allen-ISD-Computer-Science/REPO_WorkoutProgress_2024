@@ -50,6 +50,8 @@ function Arm() {
 			    <th>Exercise/Instructions</th>
 			    <th>Sets</th>
 			    <th>Reps</th>			    
+			    <th>Workout Videos</th>
+			    <th>Workout Descripton</th>
 			</tr>
 		    </thead>
 		    <tbody>
@@ -61,6 +63,11 @@ function Arm() {
 		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Straight%20Bar%20Tricep%20Extension.mp4" type="video/mp4">
 			 </source>
 		     </video>
+			   <td> Attach a straight bar to a cable stack as high as possible and prepare with a standing position. Now, you want
+			to grab the bar with a pronated grip and slightly lean forward. Pull the handle downward until the elbows are
+			almost locked out and slowly lower under control back to the starting position. You should be extending the
+			elbows and flexing the triceps while performing the movement.</td>
+		   
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Alternating Dumbell Curls</td>			    
@@ -70,6 +77,10 @@ function Arm() {
 		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Alternating%20Dumbbell%20Curl.mp4" type="video/mp4">
 			 </source>
 		     </video>
+			    <td>Position yourself straight up with the dumbbells by your side (your palms should be facing up and the dumbbells
+			not touching your body). Starting with your weaker arm, curl the dumbbell up as far as possible and squeeze
+			your bicep at the top of each rep. Then, slowly lower the weight down without it touching your body or taking
+			the tension off your bicep. Repeat this process while alternating with the other arm.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Barbell Curl</td>
@@ -78,7 +89,9 @@ function Arm() {
 <video width="320" height="120" controls>
 		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20to%20Do%20a%20Barbell%20Curl%20%7C%20Female%20Bodybuilding.mp4" type="video/mp4">
 			 </source>
-		     </video>
+</video>
+			   <td>Using a upperhand grip, stand straight up with your feet close together. Keep your back straight with your arms
+			fully extended. Slowly curl the bar up and then slowly lower it back to the starting position.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Seated Overhead Cable Tricep Extension</td>
@@ -87,7 +100,15 @@ function Arm() {
 			      <video width="320" height="120" controls>
 		       <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20To_%20Steated%20Tricep%20Overhead%20Cable%20Extensions.mp4" type="video/mp4">
 			   </source>
-		       </video>
+			      </video>
+			    <td>Set up for the exercise by placing a 90 degree bench in front of a cable pulley machine facing away from it, attaching
+			a straight bar to the low pulley, and selecting the weight you want to use on the stack. Facing away from the pulley, grab
+			the bar behind your neck with an overhand grip at shoulder width and sit down with your back flat against the bench. This
+			will lift the weight slightly from the stack. Keep your feet flat on the ground. Your forearms should be parallel to the
+			floor at this point and your elbows should be pointed at the ceiling. You should be grasping the bar behind your head with
+			your palms facing upward. You are now in the starting position. Moving only at your elbow joints slowly push the bar straight
+			up until your arms are fully extended. Keep your upper arms stationary, pause, and then slowly bring the bar back to the
+			starting position. Repeat this movement for desired reps</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(4)}>Wrist Curls</td>
@@ -97,7 +118,11 @@ function Arm() {
 		       <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/Palms-Up%20Barbell%20Wrist%20Curl%20Over%20A%20Bench%20-%20Forearms%20Exercise.mp4" type="video/mp4">
 			   </source>
 		       </video>
-				   
+			    <td>Grasp a barbell at shoulder width apart using an underhand grip (palms facing up) and sit down in front of a flat bench. Kneel
+			down and rest the back of your forearms on top of the bench so that your wrists are just off the end of it. Bending only at the
+			wrists, let the barbell drop as far as possible. This is the starting position for the exercise. Slowly raise the bar up as far
+			as possible squeezing the forearm muscles at the top of the movement. Pause, and then slowly lower the barbell back to the
+			starting position. Repeat for desired reps</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(5)}>Reverse Wrist Curls</td>
@@ -106,7 +131,12 @@ function Arm() {
 			     <video width="320" height="120" controls>
 		     <source src="https://raw.githubusercontent.com/Myoram1/Digital-Portfolio/master/How%20To_%20Reverse%20Seated%20Wrist%20Curl.mp4" type="video/mp4">
 			 </source>
-		     </video>
+			     </video>
+			    <td>Set up for the reverse wrist curl by selecting a light barbell and kneeling in front of a flat bench. Grasp the barbell with
+			a reverse grip (palms facing down) at around shoulder width apart. Place your forearms and elbows on the bench so that both
+			wrists are hanging over the edge of the bench. This is the starting position. Begin curling your writs upwards. Focus on moving
+			only the wrists, while keeping your forearms as still as possible. Lower your wrists back down to the starting position and
+			repeat for the desired reps.</td>
 			</tr>
 		    </tbody>
 		</Table>

@@ -56,7 +56,8 @@ function Leg() {
 			    <th>Exercise/Instructions</th>
 			    <th>Sets</th>
 			    <th>Reps</th>
-			    
+			    <th>Workout Videos</th>
+			    <th>Workout Description</th>
 			</tr>
 		    </thead>
 		    <tbody>
@@ -68,7 +69,9 @@ function Leg() {
 			    <video width="320" height="120"  controls>
 		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Leg%20Press.mp4" type="video/mp4">
 		    </source>
-		</video>   
+			    </video>
+			    <td>Load the machine, take a seat, position feet on the sled, lower weight, lower legs, return to starting
+			position, repeat for desired repetitions, ensuring proper control and safety.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(1)}>Machine Hack Squat </td>			    
@@ -77,7 +80,9 @@ function Leg() {
 			      <video width="320" height="120"  controls>
 		<source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Machine%20Hack%20Squat.mp4" type="video/mp4">
 		    </source>
-		</video>
+			      </video>
+			    <td>Load the machine, position your shoulders and back, lower the weight, reverse the movement, and repeat
+			for desired repetitions, ensuring proper form and safety.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(2)}>Lying Leg Curls</td>
@@ -86,7 +91,10 @@ function Leg() {
 			      <video width="320" height="120" controls>
 		   <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/How%20To%20Do%20A%20Lying%20Leg%20Curl%20(Prone%20Leg%20Curl).mp4" type="video/mp4">
 		       </source>
-		   </video>
+			      </video>
+			    <td>The lying leg curl is a great exercise to isolate the hamstrings. Set up the machine with a weight and
+			adjust the padding. Lay face down, tighten the hamstrings, squeeze them, curl the weight up, lower it
+			back, and repeat for desired reps.</td>
 			</tr>
 			<tr>
 			    <td onClick={() => toggle(3)}>Seated Calf Raises</td>
@@ -95,7 +103,9 @@ function Leg() {
 			       <video width="320" height="120" controls>
 		     <source src="https://raw.githubusercontent.com/kylesdev91/kylesdev91.github.io/master/Seated%20Calf%20Raise%20(Toes%20Neutral).mp4" type="video/mp4">
 			 </source>
-		     </video>
+			       </video>
+			    <td>Place feet on a machine platform, with toes pointed forward. Position quads under knee pad, hands on
+			top. Extend ankles, lower heels, dorsiflex calves, exhale, and repeat for assigned repetitions</td>
 			</tr>
 		    </tbody>
 		</Table>

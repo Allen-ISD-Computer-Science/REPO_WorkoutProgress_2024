@@ -19,6 +19,7 @@ import Supplements from './pages/Supplements';
 import BeginnerDiets from './pages/diets/Beginner';
 import IntermediateDiets from './pages/diets/Intermediate';
 import AdvancedDiets from './pages/diets/Advanced';
+import Try from './pages/Try';
 
 import BeginnerWorkouts from './pages/workouts/Beginner';
 import IntermediateWorkouts from './pages/workouts/Intermediate';
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
     {
 	path: "/test",
 	element: <Test />
+    },
+    {
+	path: "/try",
+	element: <Try />
     }
     
 ],

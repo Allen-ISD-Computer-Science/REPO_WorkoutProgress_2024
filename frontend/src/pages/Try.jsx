@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from '../components/Navbar.jsx';
 
-const Try = () => {
+function Try () {
+    
     return (
 	<div>
-	    <Navbar1/>
+	    <Navbar />
 	</div>
     )
 }
-export default Try
+
+export default Try;

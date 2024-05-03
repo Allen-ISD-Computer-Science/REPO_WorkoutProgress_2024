@@ -12,7 +12,6 @@ function NavbarComponent() {
 		<Nav.Link href="../welcome">Welcome</Nav.Link>
 		<Nav.Link href="../workouts">Workouts</Nav.Link>
 		<Nav.Link href="../diets">Diets</Nav.Link>
-		<Nav.Link href="../equipment">Equipment</Nav.Link>
 		<Nav.Link href="../about_us">About Us</Nav.Link>
 	    </Container>
 	</Navbar>
