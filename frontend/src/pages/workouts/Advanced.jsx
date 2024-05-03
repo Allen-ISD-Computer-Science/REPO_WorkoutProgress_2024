@@ -1,7 +1,6 @@
-import Nav from '../../components/NavbarSub.jsx';
+import Nav from '../../components/Navbar.jsx';
 import {Row, Col} from 'react-bootstrap';
 import {useState} from 'react';
-
 import Chest from '../../components/advanced/Chest.jsx';
 import Arm from '../../components/advanced/Arm.jsx';
 import Back from '../../components/advanced/Back.jsx';
